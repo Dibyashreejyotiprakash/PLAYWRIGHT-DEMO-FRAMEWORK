@@ -1,0 +1,25 @@
+<testsuites id="" name="" tests="2" failures="0" skipped="0" errors="0" time="10.881464">
+<testsuite name="ValidateLoginTest.spec.js" timestamp="2026-08-01T13:40:17.689Z" hostname="chromium" tests="2" failures="0" skipped="0" time="3.795" errors="0">
+<testcase name="Validate Login Functionality › Validate Valid Login " classname="ValidateLoginTest.spec.js" time="3.763">
+<system-out>
+<![CDATA[Test started
+Attempting login with username: Admin
+Filling username field...
+Filling password field...
+Clicking login button...
+Waiting for page to load...
+Test completed
+]]>
+</system-out>
+</testcase>
+<testcase name="Validate Login Functionality › Validate Current URL and Title " classname="ValidateLoginTest.spec.js" time="0.032">
+<system-out>
+<![CDATA[Test started
+Current URL before invalid login attempt: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+Page title after login: OrangeHRM
+Test completed
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

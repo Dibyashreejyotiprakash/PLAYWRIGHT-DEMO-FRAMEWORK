@@ -17,6 +17,10 @@
   "homepage": "https://github.com/Dibyashreejyotiprakash/PLAYWRIGHT-DEMO-FRAMEWORK#readme",
   "devDependencies": {
     "@playwright/test": "^1.62.1",
-    "@types/node": "^26.1.2"
+    "@types/node": "^26.1.2",
+    "allure-playwright": "^3.10.2"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2"
   }
 }
