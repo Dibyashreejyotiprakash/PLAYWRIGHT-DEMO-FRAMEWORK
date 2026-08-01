@@ -1,0 +1,56 @@
+Error occurred: locator.waitFor: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('//input[@placeholder=\'Username\']') to be visible
+
+    at LoginPage.login (C:\BBREPOS\DEMO PLAYWIGHT FRAMEWORK\PLAYWRIGHT-DEMO-FRAMEWORK\PageObjects\LoginPage.js:22:53)
+    at C:\BBREPOS\DEMO PLAYWIGHT FRAMEWORK\PLAYWRIGHT-DEMO-FRAMEWORK\tests\ValidateLoginTest.spec.js:64:20 {
+  log: [
+    "  - waiting for locator('//input[@placeholder=\\'Username\\']') to be visible"
+  ],
+  name: 'TimeoutError',
+  [Symbol(step)]: {
+    location: {
+      file: 'C:\\BBREPOS\\DEMO PLAYWIGHT FRAMEWORK\\PLAYWRIGHT-DEMO-FRAMEWORK\\PageObjects\\LoginPage.js',
+      line: 22,
+      column: 53,
+      function: 'LoginPage.login'
+    },
+    category: 'pw:api',
+    title: "Wait for selector locator('//input[@placeholder=\\'Username\\']')",
+    apiName: 'locator.waitFor',
+    params: {
+      selector: "//input[@placeholder='Username']",
+      strict: true,
+      omitReturnValue: true,
+      state: 'visible',
+      timeout: 10000
+    },
+    group: undefined,
+    stepId: 'pw:api@23',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@23',
+      _title: "Wait for selector locator('//input[@placeholder=\\'Username\\']')",
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1785591339430,
+    error: {
+      message: 'TimeoutError: locator.waitFor: Timeout 10000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('//input[@placeholder=\\'Username\\']') to be visible\x1B[22m\n",
+      stack: 'TimeoutError: locator.waitFor: Timeout 10000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('//input[@placeholder=\\'Username\\']') to be visible\x1B[22m\n" +
+        '\n' +
+        '    at LoginPage.login (C:\\BBREPOS\\DEMO PLAYWIGHT FRAMEWORK\\PLAYWRIGHT-DEMO-FRAMEWORK\\PageObjects\\LoginPage.js:22:53)\n' +
+        '    at C:\\BBREPOS\\DEMO PLAYWIGHT FRAMEWORK\\PLAYWRIGHT-DEMO-FRAMEWORK\\tests\\ValidateLoginTest.spec.js:64:20',
+      cause: undefined
+    }
+  }
+}

@@ -1,0 +1,10 @@
+Error occurred: TypeError: base.page.title is not a function
+    at C:\BBREPOS\DEMO PLAYWIGHT FRAMEWORK\PLAYWRIGHT-DEMO-FRAMEWORK\tests\demo.spec.js:35:33
+    at C:\BBREPOS\DEMO PLAYWIGHT FRAMEWORK\PLAYWRIGHT-DEMO-FRAMEWORK\node_modules\playwright\lib\worker\workerProcessEntry.js:1644:15
+    at C:\BBREPOS\DEMO PLAYWIGHT FRAMEWORK\PLAYWRIGHT-DEMO-FRAMEWORK\node_modules\playwright\lib\worker\workerProcessEntry.js:1133:17
+    at TimeoutManager.withRunnable (C:\BBREPOS\DEMO PLAYWIGHT FRAMEWORK\PLAYWRIGHT-DEMO-FRAMEWORK\node_modules\playwright\lib\worker\workerProcessEntry.js:404:9)
+    at TestInfoImpl._runWithTimeout (C:\BBREPOS\DEMO PLAYWIGHT FRAMEWORK\PLAYWRIGHT-DEMO-FRAMEWORK\node_modules\playwright\lib\worker\workerProcessEntry.js:1131:34)
+    at C:\BBREPOS\DEMO PLAYWIGHT FRAMEWORK\PLAYWRIGHT-DEMO-FRAMEWORK\node_modules\playwright\lib\worker\workerProcessEntry.js:1642:22
+    at WorkerMain._runTest (C:\BBREPOS\DEMO PLAYWIGHT FRAMEWORK\PLAYWRIGHT-DEMO-FRAMEWORK\node_modules\playwright\lib\worker\workerProcessEntry.js:1615:5)
+    at WorkerMain.runTestGroup (C:\BBREPOS\DEMO PLAYWIGHT FRAMEWORK\PLAYWRIGHT-DEMO-FRAMEWORK\node_modules\playwright\lib\worker\workerProcessEntry.js:1510:9)
+    at process.<anonymous> (C:\BBREPOS\DEMO PLAYWIGHT FRAMEWORK\PLAYWRIGHT-DEMO-FRAMEWORK\node_modules\playwright\lib\common\index.js:1997:25)

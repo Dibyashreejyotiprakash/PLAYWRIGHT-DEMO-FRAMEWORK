@@ -1,0 +1,4 @@
+Test started
+Attempting login with username: test
+Filling username field...
+Test completed

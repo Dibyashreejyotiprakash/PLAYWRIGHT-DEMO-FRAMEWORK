@@ -1,0 +1,4 @@
+Test started
+Current URL before invalid login attempt: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+Page title after login: OrangeHRM
+Test completed

@@ -1,0 +1,55 @@
+Error occurred: ExpectError: expect(received).toBe(expected) // Object.is equality
+
+Expected: "OrangeHRM"
+Received: ""
+    at C:\BBREPOS\DEMO PLAYWIGHT FRAMEWORK\PLAYWRIGHT-DEMO-FRAMEWORK\tests\ValidateLoginTest.spec.js:41:19 {
+  matcherResult: {
+    actual: '',
+    expected: 'OrangeHRM',
+    message: '\x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+      '\n' +
+      'Expected: \x1B[32m"OrangeHRM"\x1B[39m\n' +
+      'Received: \x1B[31m""\x1B[39m',
+    name: 'toBe',
+    pass: false
+  },
+  [Symbol(step)]: {
+    category: 'expect',
+    apiName: 'expect.toBe',
+    title: 'Expect "toBe"',
+    shortTitle: 'Expect "toBe"',
+    params: { expected: 'OrangeHRM' },
+    stepId: 'expect@87',
+    group: undefined,
+    boxedStack: undefined,
+    location: {
+      file: 'C:\\BBREPOS\\DEMO PLAYWIGHT FRAMEWORK\\PLAYWRIGHT-DEMO-FRAMEWORK\\tests\\ValidateLoginTest.spec.js',
+      line: 41,
+      column: 19
+    },
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'expect@87',
+      _title: 'Expect "toBe"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1785589910925,
+    error: {
+      message: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m"OrangeHRM"\x1B[39m\n' +
+        'Received: \x1B[31m""\x1B[39m',
+      stack: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m"OrangeHRM"\x1B[39m\n' +
+        'Received: \x1B[31m""\x1B[39m\n' +
+        '    at C:\\BBREPOS\\DEMO PLAYWIGHT FRAMEWORK\\PLAYWRIGHT-DEMO-FRAMEWORK\\tests\\ValidateLoginTest.spec.js:41:19',
+      cause: undefined
+    }
+  }
+}

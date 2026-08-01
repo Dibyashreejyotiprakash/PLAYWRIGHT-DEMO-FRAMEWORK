@@ -1,0 +1,214 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\BBREPOS\\DEMO PLAYWIGHT FRAMEWORK\\PLAYWRIGHT-DEMO-FRAMEWORK\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "ValidateLoginTest.spec.js:8"
+    ],
+    "configFile": "C:\\BBREPOS\\DEMO PLAYWIGHT FRAMEWORK\\PLAYWRIGHT-DEMO-FRAMEWORK\\playwright.config.js",
+    "rootDir": "C:/BBREPOS/DEMO PLAYWIGHT FRAMEWORK/PLAYWRIGHT-DEMO-FRAMEWORK/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/BBREPOS/DEMO PLAYWIGHT FRAMEWORK/PLAYWRIGHT-DEMO-FRAMEWORK/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/BBREPOS/DEMO PLAYWIGHT FRAMEWORK/PLAYWRIGHT-DEMO-FRAMEWORK/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "html",
+        null
+      ],
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "playwright-results.json"
+        }
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "playwright-report.xml"
+        }
+      ],
+      [
+        "C:\\BBREPOS\\DEMO PLAYWIGHT FRAMEWORK\\PLAYWRIGHT-DEMO-FRAMEWORK\\node_modules\\allure-playwright\\dist\\cjs\\index.js",
+        {
+          "outputFile": "allure-results"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.62.1",
+    "workers": 6,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "ValidateLoginTest.spec.js",
+      "file": "ValidateLoginTest.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Validate Login Functionality",
+          "file": "ValidateLoginTest.spec.js",
+          "line": 8,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Validate Valid Login ",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3763,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Test started\n"
+                        },
+                        {
+                          "text": "Attempting login with username: Admin\n"
+                        },
+                        {
+                          "text": "Filling username field...\n"
+                        },
+                        {
+                          "text": "Filling password field...\n"
+                        },
+                        {
+                          "text": "Clicking login button...\n"
+                        },
+                        {
+                          "text": "Waiting for page to load...\n"
+                        },
+                        {
+                          "text": "Test completed\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T13:40:18.367Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f21db2457e77655ea40b-f07009800e1c9110d87f",
+              "file": "ValidateLoginTest.spec.js",
+              "line": 35,
+              "column": 5
+            },
+            {
+              "title": "Validate Current URL and Title ",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 32,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Test started\n"
+                        },
+                        {
+                          "text": "Current URL before invalid login attempt: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index\n"
+                        },
+                        {
+                          "text": "Page title after login: OrangeHRM\n"
+                        },
+                        {
+                          "text": "Test completed\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-01T13:40:27.614Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f21db2457e77655ea40b-6771d37f9890fe1dcea3",
+              "file": "ValidateLoginTest.spec.js",
+              "line": 54,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-08-01T13:40:17.565Z",
+    "duration": 10881.464,
+    "expected": 2,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
