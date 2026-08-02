@@ -1,0 +1,51 @@
+[DEBUG-LOGGER] Storing log - currentTestId: null, has key: false
+[DEBUG-LOGGER] ⚠️ LOG NOT STORED! currentTestId is null or not initialized
+[INFO] Setting up test environment
+[DEBUG-LOGGER] Storing log - currentTestId: null, has key: false
+[DEBUG-LOGGER] ⚠️ LOG NOT STORED! currentTestId is null or not initialized
+[INFO] Browser launched successfully
+[DEBUG-LOGGER] Storing log - currentTestId: null, has key: false
+[DEBUG-LOGGER] ⚠️ LOG NOT STORED! currentTestId is null or not initialized
+[INFO] Application loaded successfully
+[DEBUG-LOGGER] Storing log - currentTestId: null, has key: false
+[DEBUG-LOGGER] ⚠️ LOG NOT STORED! currentTestId is null or not initialized
+[INFO] Page objects initialized
+Test started
+[DEBUG-LOGGER] Storing log - currentTestId: null, has key: false
+[DEBUG-LOGGER] ⚠️ LOG NOT STORED! currentTestId is null or not initialized
+[INFO] ========== Test Case: Validate Valid Login ==========
+[DEBUG-LOGGER] Storing log - currentTestId: null, has key: false
+[DEBUG-LOGGER] ⚠️ LOG NOT STORED! currentTestId is null or not initialized
+[INFO] Starting login validation test
+[DEBUG-LOGGER] Storing log - currentTestId: null, has key: false
+[DEBUG-LOGGER] ⚠️ LOG NOT STORED! currentTestId is null or not initialized
+[INFO] Loaded credentials from environment - Username: Admin
+[DEBUG-LOGGER] Storing log - currentTestId: null, has key: false
+[DEBUG-LOGGER] ⚠️ LOG NOT STORED! currentTestId is null or not initialized
+[INFO] Initiating login process
+[DEBUG-LOGGER] Storing log - currentTestId: null, has key: false
+[DEBUG-LOGGER] ⚠️ LOG NOT STORED! currentTestId is null or not initialized
+[INFO] Entering username in login form
+[DEBUG-LOGGER] Storing log - currentTestId: null, has key: false
+[DEBUG-LOGGER] ⚠️ LOG NOT STORED! currentTestId is null or not initialized
+[INFO] Entering password in login form
+[DEBUG-LOGGER] Storing log - currentTestId: null, has key: false
+[DEBUG-LOGGER] ⚠️ LOG NOT STORED! currentTestId is null or not initialized
+[INFO] Verifying login button is enabled
+AssertElementEnabled failed due Error: toBeEnabled can be only used with Locator object, was called with //button[normalize-space()='Login']
+[DEBUG-LOGGER] Storing log - currentTestId: null, has key: false
+[DEBUG-LOGGER] ⚠️ LOG NOT STORED! currentTestId is null or not initialized
+[INFO] Clicking on login button
+[DEBUG-LOGGER] Storing log - currentTestId: null, has key: false
+[DEBUG-LOGGER] ⚠️ LOG NOT STORED! currentTestId is null or not initialized
+[INFO] Waiting for page to load after login
+[DEBUG-LOGGER] Storing log - currentTestId: null, has key: false
+[DEBUG-LOGGER] ⚠️ LOG NOT STORED! currentTestId is null or not initialized
+[PASS] Login action completed successfully
+[DEBUG-LOGGER] Storing log - currentTestId: null, has key: false
+[DEBUG-LOGGER] ⚠️ LOG NOT STORED! currentTestId is null or not initialized
+[INFO] Waiting for post-login page stabilization (5 seconds)
+[DEBUG-LOGGER] Storing log - currentTestId: null, has key: false
+[DEBUG-LOGGER] ⚠️ LOG NOT STORED! currentTestId is null or not initialized
+[PASS] ✓ Login validation test completed successfully | Details: {"username":"Admin"}
+Test completed

@@ -1,0 +1,29 @@
+[INFO] Loading performance test configuration
+[INFO] Launching browser with CDP enabled for Lighthouse
+
+📐 Viewport Configuration:
+   Width: 2560px
+   Height: 1440px
+   Zoom Level: 1x
+
+[INFO] Target URL for testing: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO] Testing Homepage: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+Running Lighthouse audit for: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO] === Performance Metrics Report ===
+[INFO] Performance Score: 40/100
+[WARNING] LCP: 21308ms (Budget: 2500ms) ✗
+[WARNING] Speed Index: 20946ms (Budget: 3400ms) ✗
+[WARNING] FCP: 19433ms (Budget: 1800ms) ✗
+[INFO] CLS: 0.089 (Budget: 0.1) ✓
+[WARNING] TBT: 528ms (Budget: 200ms) ✗
+[INFO] TTFB: 310ms (Budget: 800ms) ✓
+[INFO] =================================
+[WARNING] Homepage has performance issues | Details: {"lcp":{"actual":21308,"budget":2500,"percentOver":752},"speedIndex":{"actual":20946,"budget":3400,"percentOver":516},"fcp":{"actual":19433,"budget":1800,"percentOver":980},"tbt":{"actual":528,"budget":200,"percentOver":164}}
+[PASS] Multi-page performance test completed
+[INFO] Cleaning up browser resources
+[INFO] Cleanup completed successfully
+[INFO] Generating HTML Performance Report
+
+✓ Performance HTML report generated: C:\BBREPOS\DEMO PLAYWIGHT FRAMEWORK\PLAYWRIGHT-DEMO-FRAMEWORK\Reports\Performance_Report.html
+
+[PASS] HTML Performance Report generated: C:\BBREPOS\DEMO PLAYWIGHT FRAMEWORK\PLAYWRIGHT-DEMO-FRAMEWORK\Reports\Performance_Report.html

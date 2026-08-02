@@ -1,0 +1,19 @@
+[INFO] Loading performance test configuration
+[INFO] Launching browser with CDP enabled for Lighthouse
+
+📐 Viewport Configuration:
+   Width: 2560px
+   Height: 1440px
+   Zoom Level: 1x
+
+[INFO] Target URL for testing: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO] Running Lighthouse audit for: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+Running Lighthouse audit for: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO] Cleaning up browser resources
+[ERROR] Performance test failed | Details: "Protocol error (Target.closeTarget): No target with given id found"
+[INFO] Cleanup completed successfully
+[INFO] Generating HTML Performance Report
+
+✓ Performance HTML report generated: C:\BBREPOS\DEMO PLAYWIGHT FRAMEWORK\PLAYWRIGHT-DEMO-FRAMEWORK\Reports\Performance_Report.html
+
+[PASS] HTML Performance Report generated: C:\BBREPOS\DEMO PLAYWIGHT FRAMEWORK\PLAYWRIGHT-DEMO-FRAMEWORK\Reports\Performance_Report.html

@@ -1,0 +1,23 @@
+[INFO] Loading performance test configuration
+[INFO] Launching browser with CDP enabled for Lighthouse
+[INFO] Target URL for testing: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO] Running Lighthouse audit for: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+Running Lighthouse audit for: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO] Lighthouse audit completed successfully
+[INFO] === Performance Metrics Report ===
+[INFO] Performance Score: 47/100
+[WARNING] LCP: 22103ms (Budget: 2500ms) ✗
+[WARNING] Speed Index: 20397ms (Budget: 3400ms) ✗
+[WARNING] FCP: 20397ms (Budget: 1800ms) ✗
+[INFO] CLS: 0.087 (Budget: 0.1) ✓
+[WARNING] TBT: 293ms (Budget: 200ms) ✗
+[INFO] TTFB: 294ms (Budget: 800ms) ✓
+[INFO] =================================
+[INFO] Performance metrics saved to: C:\BBREPOS\DEMO PLAYWIGHT FRAMEWORK\PLAYWRIGHT-DEMO-FRAMEWORK\Reports\performance-metrics\Homepage-2026-08-02T07-00-22-363Z.json
+[INFO] Overall Performance Status: FAIL
+[INFO] Performance Score: 47/100
+[WARNING] 4 metric(s) exceeded budget: lcp, speedIndex, fcp, tbt
+[FAIL] LCP exceeded budget: 22103ms > 2500ms | Details: {"actual":22103,"budget":2500,"percentOver":784}
+[ERROR] Performance test failed | Details: "LCP budget exceeded"
+[INFO] Cleaning up browser resources
+[INFO] Cleanup completed successfully

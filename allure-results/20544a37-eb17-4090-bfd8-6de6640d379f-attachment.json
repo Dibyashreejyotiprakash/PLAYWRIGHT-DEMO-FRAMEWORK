@@ -1,0 +1,1 @@
+{"timestamp":"2026-08-02T07:17:38.108Z","level":"warning","message":"Homepage has performance issues","details":{"lcp":{"actual":21308,"budget":2500,"percentOver":752},"speedIndex":{"actual":20946,"budget":3400,"percentOver":516},"fcp":{"actual":19433,"budget":1800,"percentOver":980},"tbt":{"actual":528,"budget":200,"percentOver":164}},"screenshot":null}

@@ -1,0 +1,1 @@
+{"timestamp":"2026-08-02T07:12:32.432Z","level":"warning","message":"Login Page has 4 metric(s) exceeding budget","details":{"lcp":{"actual":22831,"budget":2500,"percentOver":813},"speedIndex":{"actual":21076,"budget":3400,"percentOver":520},"fcp":{"actual":21076,"budget":1800,"percentOver":1071},"tbt":{"actual":343,"budget":200,"percentOver":72}},"screenshot":null}

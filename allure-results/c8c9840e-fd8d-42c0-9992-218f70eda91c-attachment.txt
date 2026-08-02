@@ -1,0 +1,32 @@
+Test started
+[DEBUG-LOGGER] ⚠️ LOG NOT STORED! No active test context. Stack: 0
+[INFO] ========== Test Case: Validate Current URL and Title ==========
+[DEBUG-LOGGER] ⚠️ LOG NOT STORED! No active test context. Stack: 0
+[INFO] Starting URL and page title validation
+[DEBUG-LOGGER] ⚠️ LOG NOT STORED! No active test context. Stack: 0
+[INFO] Retrieving current URL from browser
+[DEBUG-LOGGER] ⚠️ LOG NOT STORED! No active test context. Stack: 0
+[INFO] Current URL captured: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[DEBUG-LOGGER] ⚠️ LOG NOT STORED! No active test context. Stack: 0
+[INFO] Asserting URL matches expected: OrangeHRM
+AssertCurrentUrl failed due Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: "OrangeHRM"
+Received: "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
+[DEBUG-LOGGER] ⚠️ LOG NOT STORED! No active test context. Stack: 0
+[PASS] URL assertion passed
+[DEBUG-LOGGER] ⚠️ LOG NOT STORED! No active test context. Stack: 0
+[INFO] Retrieving page title from browser
+[DEBUG-LOGGER] ⚠️ LOG NOT STORED! No active test context. Stack: 0
+[INFO] Page title captured: "OrangeHRM"
+[DEBUG-LOGGER] ⚠️ LOG NOT STORED! No active test context. Stack: 0
+[INFO] Expected page title: "OrangeHRM"
+[DEBUG-LOGGER] ⚠️ LOG NOT STORED! No active test context. Stack: 0
+[PASS] ✓ URL and title validation completed successfully | Details: {"url":"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login","title":"OrangeHRM","expected":"OrangeHRM"}
+Test completed
+[DEBUG-LOGGER] ⚠️ LOG NOT STORED! No active test context. Stack: 0
+[INFO] Cleaning up test environment
+[DEBUG-LOGGER] ⚠️ LOG NOT STORED! No active test context. Stack: 0
+[INFO] Browser context closed
+[DEBUG-LOGGER] ⚠️ LOG NOT STORED! No active test context. Stack: 0
+[INFO] Browser closed

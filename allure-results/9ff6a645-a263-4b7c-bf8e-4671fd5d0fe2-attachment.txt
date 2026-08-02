@@ -1,0 +1,67 @@
+[DEBUG-LOGGER-DETAILED] Stack length: 0, Context: NO, TestId: NULL
+[DEBUG-LOGGER-DETAILED] Full stack: []
+[DEBUG-LOGGER] ⚠️ LOG NOT STORED! Stack: 0, Has test: false
+[INFO] Setting up test environment
+[DEBUG-LOGGER-DETAILED] Stack length: 0, Context: NO, TestId: NULL
+[DEBUG-LOGGER-DETAILED] Full stack: []
+[DEBUG-LOGGER] ⚠️ LOG NOT STORED! Stack: 0, Has test: false
+[INFO] Browser launched successfully
+[DEBUG-LOGGER-DETAILED] Stack length: 0, Context: NO, TestId: NULL
+[DEBUG-LOGGER-DETAILED] Full stack: []
+[DEBUG-LOGGER] ⚠️ LOG NOT STORED! Stack: 0, Has test: false
+[INFO] Application loaded successfully
+[DEBUG-LOGGER-DETAILED] Stack length: 0, Context: NO, TestId: NULL
+[DEBUG-LOGGER-DETAILED] Full stack: []
+[DEBUG-LOGGER] ⚠️ LOG NOT STORED! Stack: 0, Has test: false
+[INFO] Page objects initialized
+Test started
+[DEBUG-LOGGER-DETAILED] Stack length: 0, Context: NO, TestId: NULL
+[DEBUG-LOGGER-DETAILED] Full stack: []
+[DEBUG-LOGGER] ⚠️ LOG NOT STORED! Stack: 0, Has test: false
+[INFO] ========== Test Case: Validate Valid Login ==========
+[DEBUG-LOGGER-DETAILED] Stack length: 0, Context: NO, TestId: NULL
+[DEBUG-LOGGER-DETAILED] Full stack: []
+[DEBUG-LOGGER] ⚠️ LOG NOT STORED! Stack: 0, Has test: false
+[INFO] Starting login validation test
+[DEBUG-LOGGER-DETAILED] Stack length: 0, Context: NO, TestId: NULL
+[DEBUG-LOGGER-DETAILED] Full stack: []
+[DEBUG-LOGGER] ⚠️ LOG NOT STORED! Stack: 0, Has test: false
+[INFO] Loaded credentials from environment - Username: Admin
+[DEBUG-LOGGER-DETAILED] Stack length: 0, Context: NO, TestId: NULL
+[DEBUG-LOGGER-DETAILED] Full stack: []
+[DEBUG-LOGGER] ⚠️ LOG NOT STORED! Stack: 0, Has test: false
+[INFO] Initiating login process
+[DEBUG-LOGGER-DETAILED] Stack length: 0, Context: NO, TestId: NULL
+[DEBUG-LOGGER-DETAILED] Full stack: []
+[DEBUG-LOGGER] ⚠️ LOG NOT STORED! Stack: 0, Has test: false
+[INFO] Entering username in login form
+[DEBUG-LOGGER-DETAILED] Stack length: 0, Context: NO, TestId: NULL
+[DEBUG-LOGGER-DETAILED] Full stack: []
+[DEBUG-LOGGER] ⚠️ LOG NOT STORED! Stack: 0, Has test: false
+[INFO] Entering password in login form
+[DEBUG-LOGGER-DETAILED] Stack length: 0, Context: NO, TestId: NULL
+[DEBUG-LOGGER-DETAILED] Full stack: []
+[DEBUG-LOGGER] ⚠️ LOG NOT STORED! Stack: 0, Has test: false
+[INFO] Verifying login button is enabled
+AssertElementEnabled failed due Error: toBeEnabled can be only used with Locator object, was called with //button[normalize-space()='Login']
+[DEBUG-LOGGER-DETAILED] Stack length: 0, Context: NO, TestId: NULL
+[DEBUG-LOGGER-DETAILED] Full stack: []
+[DEBUG-LOGGER] ⚠️ LOG NOT STORED! Stack: 0, Has test: false
+[INFO] Clicking on login button
+[DEBUG-LOGGER-DETAILED] Stack length: 0, Context: NO, TestId: NULL
+[DEBUG-LOGGER-DETAILED] Full stack: []
+[DEBUG-LOGGER] ⚠️ LOG NOT STORED! Stack: 0, Has test: false
+[INFO] Waiting for page to load after login
+[DEBUG-LOGGER-DETAILED] Stack length: 0, Context: NO, TestId: NULL
+[DEBUG-LOGGER-DETAILED] Full stack: []
+[DEBUG-LOGGER] ⚠️ LOG NOT STORED! Stack: 0, Has test: false
+[PASS] Login action completed successfully
+[DEBUG-LOGGER-DETAILED] Stack length: 0, Context: NO, TestId: NULL
+[DEBUG-LOGGER-DETAILED] Full stack: []
+[DEBUG-LOGGER] ⚠️ LOG NOT STORED! Stack: 0, Has test: false
+[INFO] Waiting for post-login page stabilization (5 seconds)
+[DEBUG-LOGGER-DETAILED] Stack length: 0, Context: NO, TestId: NULL
+[DEBUG-LOGGER-DETAILED] Full stack: []
+[DEBUG-LOGGER] ⚠️ LOG NOT STORED! Stack: 0, Has test: false
+[PASS] ✓ Login validation test completed successfully | Details: {"username":"Admin"}
+Test completed

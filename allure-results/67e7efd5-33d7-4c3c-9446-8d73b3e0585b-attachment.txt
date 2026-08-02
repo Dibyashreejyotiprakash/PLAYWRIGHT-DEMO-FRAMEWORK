@@ -1,0 +1,44 @@
+[INFO] Loading performance test configuration
+[INFO] Launching browser with CDP enabled for Lighthouse
+[INFO] 
+========================================
+[INFO] Testing: Login Page
+[INFO] URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO] ========================================
+
+Running Lighthouse audit for: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO] === Performance Metrics Report ===
+[INFO] Performance Score: 46/100
+[WARNING] LCP: 22831ms (Budget: 2500ms) ✗
+[WARNING] Speed Index: 21076ms (Budget: 3400ms) ✗
+[WARNING] FCP: 21076ms (Budget: 1800ms) ✗
+[INFO] CLS: 0.083 (Budget: 0.1) ✓
+[WARNING] TBT: 343ms (Budget: 200ms) ✗
+[INFO] TTFB: 496ms (Budget: 800ms) ✓
+[INFO] =================================
+[WARNING] Login Page has 4 metric(s) exceeding budget | Details: {"lcp":{"actual":22831,"budget":2500,"percentOver":813},"speedIndex":{"actual":21076,"budget":3400,"percentOver":520},"fcp":{"actual":21076,"budget":1800,"percentOver":1071},"tbt":{"actual":343,"budget":200,"percentOver":72}}
+[PASS] All 1 page(s) tested successfully
+[INFO] Cleaning up browser resources
+[INFO] Cleanup completed successfully
+[INFO] 
+========================================
+[INFO] Generating HTML Performance Report
+[INFO] ========================================
+
+
+✓ Performance HTML report generated: C:\BBREPOS\DEMO PLAYWIGHT FRAMEWORK\PLAYWRIGHT-DEMO-FRAMEWORK\Reports\Performance_Report.html
+
+[PASS] 
+✓ HTML Performance Report: C:\BBREPOS\DEMO PLAYWIGHT FRAMEWORK\PLAYWRIGHT-DEMO-FRAMEWORK\Reports\Performance_Report.html
+
+
+╔════════════════════════════════════════════════════════════╗
+║          Performance Test Summary                         ║
+╠════════════════════════════════════════════════════════════╣
+║ 1. Login Page                                         ║
+║    LCP: 22831 ms                                         ║
+║    Speed Index: 21076 ms                                   ║
+╠════════════════════════════════════════════════════════════╣
+║ HTML Report: Reports/Performance_Report.html              ║
+╚════════════════════════════════════════════════════════════╝
+

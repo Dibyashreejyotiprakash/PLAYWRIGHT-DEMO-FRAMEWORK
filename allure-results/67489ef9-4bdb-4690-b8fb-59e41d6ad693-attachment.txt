@@ -1,0 +1,45 @@
+Test started
+[DEBUG-LOGGER] Storing log - currentTestId: null, has key: false
+[DEBUG-LOGGER] ⚠️ LOG NOT STORED! currentTestId is null or not initialized
+[INFO] ========== Test Case: Validate Current URL and Title ==========
+[DEBUG-LOGGER] Storing log - currentTestId: null, has key: false
+[DEBUG-LOGGER] ⚠️ LOG NOT STORED! currentTestId is null or not initialized
+[INFO] Starting URL and page title validation
+[DEBUG-LOGGER] Storing log - currentTestId: null, has key: false
+[DEBUG-LOGGER] ⚠️ LOG NOT STORED! currentTestId is null or not initialized
+[INFO] Retrieving current URL from browser
+[DEBUG-LOGGER] Storing log - currentTestId: null, has key: false
+[DEBUG-LOGGER] ⚠️ LOG NOT STORED! currentTestId is null or not initialized
+[INFO] Current URL captured: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[DEBUG-LOGGER] Storing log - currentTestId: null, has key: false
+[DEBUG-LOGGER] ⚠️ LOG NOT STORED! currentTestId is null or not initialized
+[INFO] Asserting URL matches expected: OrangeHRM
+AssertCurrentUrl failed due Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: "OrangeHRM"
+Received: "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
+[DEBUG-LOGGER] Storing log - currentTestId: null, has key: false
+[DEBUG-LOGGER] ⚠️ LOG NOT STORED! currentTestId is null or not initialized
+[PASS] URL assertion passed
+[DEBUG-LOGGER] Storing log - currentTestId: null, has key: false
+[DEBUG-LOGGER] ⚠️ LOG NOT STORED! currentTestId is null or not initialized
+[INFO] Retrieving page title from browser
+[DEBUG-LOGGER] Storing log - currentTestId: null, has key: false
+[DEBUG-LOGGER] ⚠️ LOG NOT STORED! currentTestId is null or not initialized
+[INFO] Page title captured: "OrangeHRM"
+[DEBUG-LOGGER] Storing log - currentTestId: null, has key: false
+[DEBUG-LOGGER] ⚠️ LOG NOT STORED! currentTestId is null or not initialized
+[INFO] Expected page title: "OrangeHRM"
+[DEBUG-LOGGER] Storing log - currentTestId: null, has key: false
+[DEBUG-LOGGER] ⚠️ LOG NOT STORED! currentTestId is null or not initialized
+[PASS] ✓ URL and title validation completed successfully | Details: {"url":"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login","title":"OrangeHRM","expected":"OrangeHRM"}
+Test completed
+[DEBUG-LOGGER] Storing log - currentTestId: null, has key: false
+[DEBUG-LOGGER] ⚠️ LOG NOT STORED! currentTestId is null or not initialized
+[INFO] Cleaning up test environment
+[DEBUG-LOGGER] Storing log - currentTestId: null, has key: false
+[DEBUG-LOGGER] ⚠️ LOG NOT STORED! currentTestId is null or not initialized
+[INFO] Browser context closed
+[DEBUG-LOGGER] Storing log - currentTestId: null, has key: false
+[DEBUG-LOGGER] ⚠️ LOG NOT STORED! currentTestId is null or not initialized
+[INFO] Browser closed

@@ -1,0 +1,148 @@
+  LH:status Connecting to browser +0ms
+  LH:status Navigating to about:blank +21ms
+  LH:status Benchmarking machine +37ms
+  LH:status Host device pixel ratio +1s
+  LH:status Preparing target for navigation mode +11ms
+  LH:status Preparing network conditions +74ms
+  LH:status Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/auth/login +499ms
+  LH:status Getting artifact: DevtoolsLog +10s
+  LH:status Getting artifact: Trace +0ms
+  LH:status Getting artifact: CSSUsage +0ms
+  LH:status Getting artifact: ImageElements +96ms
+  LH:status Getting artifact: JsUsage +116ms
+  LH:status Getting artifact: NetworkUserAgent +1ms
+  LH:status Getting artifact: Scripts +0ms
+  LH:status Getting artifact: SourceMaps +0ms
+  LH:status Getting artifact: Stacks +2s
+  LH:status Collect stacks +0ms
+  LH:status Getting artifact: Stylesheets +17ms
+  LH:status Getting artifact: TraceElements +29ms
+  LH:status Trace Engine total +48ms
+  LH:status Trace Engine parse +0ms
+  LH:status Trace Engine parse:handleEvent +2ms
+  LH:status Trace Engine parse:Meta:finalize +235ms
+  LH:status Trace Engine parse:AnimationFrames:finalize +3ms
+  LH:status Trace Engine parse:Animations:finalize +15ms
+  LH:status Trace Engine parse:Samples:finalize +17ms
+  LH:status Trace Engine parse:AuctionWorklets:finalize +2ms
+  LH:status Trace Engine parse:NetworkRequests:finalize +15ms
+  LH:status Trace Engine parse:Renderer:finalize +11ms
+  LH:status Trace Engine parse:Flows:finalize +18ms
+  LH:status Trace Engine parse:AsyncJSCalls:finalize +8ms
+  LH:status Trace Engine parse:DOMStats:finalize +15ms
+  LH:status Trace Engine parse:UserTimings:finalize +0ms
+  LH:status Trace Engine parse:ExtensionTraceData:finalize +16ms
+  LH:status Trace Engine parse:LayerTree:finalize +16ms
+  LH:status Trace Engine parse:Frames:finalize +18ms
+  LH:status Trace Engine parse:GPU:finalize +28ms
+  LH:status Trace Engine parse:ImagePainting:finalize +2ms
+  LH:status Trace Engine parse:Initiators:finalize +3ms
+  LH:status Trace Engine parse:Invalidations:finalize +2ms
+  LH:status Trace Engine parse:PageLoadMetrics:finalize +5ms
+  LH:status Trace Engine parse:LargestImagePaint:finalize +11ms
+  LH:status Trace Engine parse:LargestTextPaint:finalize +15ms
+  LH:status Trace Engine parse:Screenshots:finalize +17ms
+  LH:status Trace Engine parse:LayoutShifts:finalize +16ms
+  LH:status Trace Engine parse:Memory:finalize +22ms
+  LH:status Trace Engine parse:PageFrames:finalize +10ms
+  LH:status Trace Engine parse:Scripts:finalize +0ms
+  LH:status Trace Engine parse:SelectorStats:finalize +8ms
+  LH:status Trace Engine parse:UserInteractions:finalize +11ms
+  LH:status Trace Engine parse:Workers:finalize +4ms
+  LH:status Trace Engine parse:Warnings:finalize +6ms
+  LH:status Trace Engine parse:handler.data() +6ms
+  LH:status Trace Engine insights +2ms
+  LH:status Trace Engine insights:CLSCulprits +2ms
+  LH:status Trace Engine insights:Cache +1ms
+  LH:status Trace Engine insights:CharacterSet +1ms
+  LH:status Trace Engine insights:DOMSize +0ms
+  LH:status Trace Engine insights:DocumentLatency +1ms
+  LH:status Trace Engine insights:DuplicatedJavaScript +0ms
+  LH:status Trace Engine insights:FontDisplay +1ms
+  LH:status Trace Engine insights:ForcedReflow +0ms
+  LH:status Trace Engine insights:INPBreakdown +1ms
+  LH:status Trace Engine insights:ImageDelivery +0ms
+  LH:status Trace Engine insights:LCPBreakdown +1ms
+  LH:status Trace Engine insights:LCPDiscovery +0ms
+  LH:status Trace Engine insights:LegacyJavaScript +1ms
+  LH:status Trace Engine insights:ModernHTTP +0ms
+  LH:status Trace Engine insights:NetworkDependencyTree +1ms
+  LH:status Trace Engine insights:RenderBlocking +0ms
+  LH:status Trace Engine insights:SlowCSSSelector +0ms
+  LH:status Trace Engine insights:ThirdParties +1ms
+  LH:status Trace Engine insights:Viewport +4ms
+  LH:status Trace Engine insights:createLanternContext +1ms
+  LH:status Trace Engine insights:CLSCulprits +36ms
+  LH:status Trace Engine insights:Cache +1ms
+  LH:status Trace Engine insights:CharacterSet +3ms
+  LH:status Trace Engine insights:DOMSize +0ms
+  LH:status Trace Engine insights:DocumentLatency +1ms
+  LH:status Trace Engine insights:DuplicatedJavaScript +1ms
+  LH:status Trace Engine insights:FontDisplay +0ms
+  LH:status Trace Engine insights:ForcedReflow +1ms
+  LH:status Trace Engine insights:INPBreakdown +0ms
+  LH:status Trace Engine insights:ImageDelivery +0ms
+  LH:status Trace Engine insights:LCPBreakdown +3ms
+  LH:status Trace Engine insights:LCPDiscovery +1ms
+  LH:status Trace Engine insights:LegacyJavaScript +0ms
+  LH:status Trace Engine insights:ModernHTTP +301ms
+  LH:status Trace Engine insights:NetworkDependencyTree +3ms
+  LH:status Trace Engine insights:RenderBlocking +3ms
+  LH:status Trace Engine insights:SlowCSSSelector +3ms
+  LH:status Trace Engine insights:ThirdParties +0ms
+  LH:status Trace Engine insights:Viewport +7ms
+  LH:status Getting artifact: FullPageScreenshot +91ms
+  LH:status Getting artifact: BFCacheFailures +1s
+  LH:method <= browser ERR:error Network.loadNetworkResource  +0ms
+  LH:method <= browser ERR:error Network.loadNetworkResource  +0ms
+  LH:status Analyzing and running audits... +639ms
+  LH:status Auditing: First Contentful Paint +4ms
+  LH:status Auditing: Largest Contentful Paint +19ms
+  LH:status Auditing: Speed Index +16ms
+  LH:status Auditing: Screenshot Thumbnails +256ms
+  LH:status Auditing: Final Screenshot +0ms
+  LH:status Auditing: Total Blocking Time +4ms
+  LH:status Auditing: Max Potential First Input Delay +6ms
+  LH:status Auditing: Cumulative Layout Shift +5ms
+  LH:status Auditing: Initial server response time was short +2ms
+  LH:status Auditing: Time to Interactive +3ms
+  LH:status Auditing: User Timing marks and measures +2ms
+  LH:status Auditing: Avoid multiple page redirects +3ms
+  LH:status Auditing: Minimizes main-thread work +2ms
+  LH:status Auditing: JavaScript execution time +12ms
+  LH:status Auditing: Diagnostics +8ms
+  LH:status Auditing: Network Requests +1ms
+  LH:status Auditing: Network Round Trip Times +3ms
+  LH:status Auditing: Server Backend Latencies +2ms
+  LH:status Auditing: Tasks +2ms
+  LH:status Auditing: Metrics +0ms
+  LH:status Auditing: Resources Summary +5ms
+  LH:status Auditing: Avoid large layout shifts +2ms
+  LH:status Auditing: Avoid long main-thread tasks +5ms
+  LH:status Auditing: Avoid non-composited animations +6ms
+  LH:status Auditing: Image elements have explicit `width` and `height` +2ms
+  LH:status Auditing: Script Treemap Data +2ms
+  LH:status Auditing: Avoids enormous network payloads +65ms
+  LH:status Auditing: Minify CSS +2ms
+  LH:status Auditing: Minify JavaScript +30ms
+  LH:status Auditing: Reduce unused CSS +138ms
+  LH:status Auditing: Reduce unused JavaScript +5ms
+  LH:status Auditing: Page didn't prevent back/forward cache restoration +4ms
+  LH:status Auditing: Use efficient cache lifetimes +2ms
+  LH:status Auditing: Layout shift culprits +3ms
+  LH:status Auditing: Document request latency +2ms
+  LH:status Auditing: Optimize DOM size +1ms
+  LH:status Auditing: Duplicated JavaScript +2ms
+  LH:status Auditing: Font display +2ms
+  LH:status Auditing: Forced reflow +2ms
+  LH:status Auditing: Improve image delivery +2ms
+  LH:status Auditing: INP breakdown +2ms
+  LH:status Auditing: LCP breakdown +2ms
+  LH:status Auditing: LCP request discovery +2ms
+  LH:status Auditing: Legacy JavaScript +1ms
+  LH:status Auditing: Modern HTTP +2ms
+  LH:status Auditing: Network dependency tree +1ms
+  LH:status Auditing: Render-blocking requests +2ms
+  LH:status Auditing: 3rd parties +2ms
+  LH:status Auditing: Optimize viewport for mobile +9ms
+  LH:status Generating results... +1ms

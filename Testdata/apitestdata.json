@@ -1,0 +1,17 @@
+{
+    "Environment": "STAGE",
+    "ApiBaseUrl_QA": "https://api-i.qa.brandmuscle.net/api/",
+    "ApiBaseUrl_Stage": "https://api-i.stage.brandmuscle.net/api/",
+    "ApiBaseUrl_Prod": "https://api-i.brandmuscle.net/api/",
+    "Browser": "CHROME",
+    "wcapi_orderid": "12006886",
+    "wcapi_orderlineid": "26523392",
+    "wcapi_jobid": "24480941",
+    "wcapi_subid": "39943",
+    "wcapi_userid": "3966284",
+    "NextGenQaUrl": "https://qa.v5qa.brandmuscle.net/",
+    "NextGenStageUrl": "https://qa.v5stage.brandmuscle.net/",
+    "NextGenProdUrl": "https://www.brandmuscle.net/",
+    "NextGenAdminQA": "https://qa.v5api.brandmuscle.net/",
+    "NextGenAdminStage": "https://qa.v5api.brandmuscle.net/v2/"
+}

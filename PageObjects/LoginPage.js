@@ -1,12 +1,12 @@
 import {test, expect} from '@playwright/test';
-import Base from '../Initiate/Base.js';
-
-const base = new Base();
+import Interaction from '../Utility/UIInteraction/Interaction.js';
+import Test from '../Utility/ReportUtility/TestLogger.js';
 
 class LoginPage {
 
         constructor(page) {
             this.page = page;
+            this.interaction = new Interaction(page);
             this.usernameInput = "//input[@placeholder='Username']";
             this.passwordInput = "//input[@placeholder='Password']";
             this.loginButton = "//button[normalize-space()='Login']";
@@ -14,22 +14,31 @@ class LoginPage {
 
 
     async login(username, password) {
-        if (!username || !password) {
-            throw new Error('Username and password are required for login');
+
+        try{
+            Test.Log.Info('Entering username in login form');
+            await this.interaction.FillInputField(this.usernameInput,username);
+
+            Test.Log.Info('Entering password in login form');
+            await this.interaction.FillInputField(this.passwordInput,password);
+
+            Test.Log.Info('Verifying login button is enabled');
+            await this.interaction.AssertElementEnabled(this.loginButton);
+
+            Test.Log.Info('Clicking on login button');
+            await this.interaction.ClickOnElement(this.loginButton);
+
+            Test.Log.Info('Waiting for page to load after login');
+            await this.interaction.waitforLoadState('load');
+
+            Test.Log.Pass('Login action completed successfully', null, this.page);
+        }
+        catch(error){
+            Test.Log.Error('Login action failed', error.message, this.page);
+            console.log(`Login failed due to ${error}`);
+            throw error;
         }
 
-        console.log('Filling username field...');
-        await this.page.locator(this.usernameInput).waitFor({ state: 'visible', timeout: 10000 });
-        await this.page.fill(this.usernameInput, username);
-
-        console.log('Filling password field...');
-        await this.page.fill(this.passwordInput, password);
-
-        console.log('Clicking login button...');
-        await this.page.click(this.loginButton);
-
-        console.log('Waiting for page to load...');
-        await this.page.waitForLoadState('networkidle');
     }
 }
 export default LoginPage;

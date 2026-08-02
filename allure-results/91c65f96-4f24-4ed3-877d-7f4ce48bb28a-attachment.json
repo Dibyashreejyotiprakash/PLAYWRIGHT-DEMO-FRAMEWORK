@@ -1,0 +1,14 @@
+{
+  "performanceScore": 52,
+  "lcp": 20264,
+  "speedIndex": 20264,
+  "fcp": 20264,
+  "cls": 0.086,
+  "tbt": 115,
+  "ttfb": 300,
+  "tti": 20986,
+  "si": 20264,
+  "url": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+  "timestamp": "2026-08-02T07:02:07.222Z",
+  "fetchTime": "2026-08-02T07:01:54.480Z"
+}

@@ -1,0 +1,4 @@
+Test started
+Attempting login with username: Admin
+Login failed due to TypeError: Cannot read properties of undefined (reading 'waitForSelector')
+Test completed

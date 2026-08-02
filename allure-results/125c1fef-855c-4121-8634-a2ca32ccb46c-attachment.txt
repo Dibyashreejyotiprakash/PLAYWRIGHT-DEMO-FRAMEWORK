@@ -1,0 +1,19 @@
+Test started
+[INFO] ========== Test Case: Validate Current URL and Title ==========
+[INFO] Starting URL and page title validation
+[INFO] Retrieving current URL from browser
+[INFO] Current URL captured: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[INFO] Asserting URL matches expected: OrangeHRM
+AssertCurrentUrl failed due Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: "OrangeHRM"
+Received: "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index"
+[PASS] URL assertion passed
+[INFO] Retrieving page title from browser
+[INFO] Page title captured: "OrangeHRM"
+[INFO] Expected page title: "OrangeHRM"
+[PASS] ✓ URL and title validation completed successfully | Details: {"url":"https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index","title":"OrangeHRM","expected":"OrangeHRM"}
+Test completed
+[INFO] Cleaning up test environment
+[INFO] Browser context closed
+[INFO] Browser closed

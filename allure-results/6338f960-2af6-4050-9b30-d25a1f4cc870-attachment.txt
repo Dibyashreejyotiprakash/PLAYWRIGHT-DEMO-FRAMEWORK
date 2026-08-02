@@ -1,0 +1,19 @@
+[INFO] Setting up test environment
+[INFO] Browser launched successfully
+[INFO] Application loaded successfully
+[INFO] Page objects initialized
+Test started
+[INFO] ========== Test Case: Validate Valid Login ==========
+[INFO] Starting login validation test
+[INFO] Loaded credentials from environment - Username: Admin
+[INFO] Initiating login process
+[INFO] Entering username in login form
+[INFO] Entering password in login form
+[INFO] Verifying login button is enabled
+AssertElementEnabled failed due Error: toBeEnabled can be only used with Locator object, was called with //button[normalize-space()='Login']
+[INFO] Clicking on login button
+[INFO] Waiting for page to load after login
+[PASS] Login action completed successfully
+[INFO] Waiting for post-login page stabilization (5 seconds)
+[PASS] ✓ Login validation test completed successfully | Details: {"username":"Admin"}
+Test completed

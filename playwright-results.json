@@ -4,7 +4,7 @@
       "C:\\Program Files\\nodejs\\node.exe",
       "C:\\BBREPOS\\DEMO PLAYWIGHT FRAMEWORK\\PLAYWRIGHT-DEMO-FRAMEWORK\\node_modules\\@playwright\\test\\cli.js",
       "test",
-      "ValidateLoginTest.spec.js:8"
+      "UnifiedPerformanceReport_Simple.spec.js:14"
     ],
     "configFile": "C:\\BBREPOS\\DEMO PLAYWIGHT FRAMEWORK\\PLAYWRIGHT-DEMO-FRAMEWORK\\playwright.config.js",
     "rootDir": "C:/BBREPOS/DEMO PLAYWIGHT FRAMEWORK/PLAYWRIGHT-DEMO-FRAMEWORK/tests",
@@ -17,18 +17,14 @@
     "grep": {},
     "grepInvert": null,
     "maxFailures": 0,
-    "metadata": {
-      "actualWorkers": 1
-    },
+    "metadata": {},
     "preserveOutput": "always",
     "projects": [
       {
         "outputDir": "C:/BBREPOS/DEMO PLAYWIGHT FRAMEWORK/PLAYWRIGHT-DEMO-FRAMEWORK/test-results",
         "repeatEach": 1,
         "retries": 0,
-        "metadata": {
-          "actualWorkers": 1
-        },
+        "metadata": {},
         "id": "chromium",
         "name": "chromium",
         "testDir": "C:/BBREPOS/DEMO PLAYWIGHT FRAMEWORK/PLAYWRIGHT-DEMO-FRAMEWORK/tests",
@@ -66,6 +62,13 @@
         {
           "outputFile": "allure-results"
         }
+      ],
+      [
+        "C:\\BBREPOS\\DEMO PLAYWIGHT FRAMEWORK\\PLAYWRIGHT-DEMO-FRAMEWORK\\Utility\\ReportUtility\\CustomHtmlReporter.js",
+        {
+          "outputFile": "Functional_Validation_AutomationReport.html",
+          "outputDir": "Reports"
+        }
       ]
     ],
     "reportSlowTests": {
@@ -80,133 +83,21 @@
     "workers": 6,
     "webServer": null
   },
-  "suites": [
+  "suites": [],
+  "errors": [
     {
-      "title": "ValidateLoginTest.spec.js",
-      "file": "ValidateLoginTest.spec.js",
-      "column": 0,
-      "line": 0,
-      "specs": [],
-      "suites": [
-        {
-          "title": "Validate Login Functionality",
-          "file": "ValidateLoginTest.spec.js",
-          "line": 8,
-          "column": 6,
-          "specs": [
-            {
-              "title": "Validate Valid Login ",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 0,
-                      "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 3763,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": "Test started\n"
-                        },
-                        {
-                          "text": "Attempting login with username: Admin\n"
-                        },
-                        {
-                          "text": "Filling username field...\n"
-                        },
-                        {
-                          "text": "Filling password field...\n"
-                        },
-                        {
-                          "text": "Clicking login button...\n"
-                        },
-                        {
-                          "text": "Waiting for page to load...\n"
-                        },
-                        {
-                          "text": "Test completed\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2026-08-01T13:40:18.367Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "f21db2457e77655ea40b-f07009800e1c9110d87f",
-              "file": "ValidateLoginTest.spec.js",
-              "line": 35,
-              "column": 5
-            },
-            {
-              "title": "Validate Current URL and Title ",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 0,
-                      "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 32,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": "Test started\n"
-                        },
-                        {
-                          "text": "Current URL before invalid login attempt: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index\n"
-                        },
-                        {
-                          "text": "Page title after login: OrangeHRM\n"
-                        },
-                        {
-                          "text": "Test completed\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2026-08-01T13:40:27.614Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "f21db2457e77655ea40b-6771d37f9890fe1dcea3",
-              "file": "ValidateLoginTest.spec.js",
-              "line": 54,
-              "column": 5
-            }
-          ]
-        }
-      ]
+      "message": "Error: Cannot find module 'C:\\BBREPOS\\DEMO PLAYWIGHT FRAMEWORK\\PLAYWRIGHT-DEMO-FRAMEWORK\\Initiate\\UnifiedPerformanceReportGenerator.js' imported from C:\\BBREPOS\\DEMO PLAYWIGHT FRAMEWORK\\PLAYWRIGHT-DEMO-FRAMEWORK\\tests\\PerformanceTest\\UnifiedPerformanceReport_Simple.spec.js",
+      "stack": "Error: Cannot find module 'C:\\BBREPOS\\DEMO PLAYWIGHT FRAMEWORK\\PLAYWRIGHT-DEMO-FRAMEWORK\\Initiate\\UnifiedPerformanceReportGenerator.js' imported from C:\\BBREPOS\\DEMO PLAYWIGHT FRAMEWORK\\PLAYWRIGHT-DEMO-FRAMEWORK\\tests\\PerformanceTest\\UnifiedPerformanceReport_Simple.spec.js"
+    },
+    {
+      "message": "Error: No tests found.\nMake sure that arguments are regular expressions matching test files.\nYou may need to escape symbols like \"$\" or \"*\" and quote the arguments.",
+      "stack": "Error: No tests found.\nMake sure that arguments are regular expressions matching test files.\nYou may need to escape symbols like \"$\" or \"*\" and quote the arguments."
     }
   ],
-  "errors": [],
   "stats": {
-    "startTime": "2026-08-01T13:40:17.565Z",
-    "duration": 10881.464,
-    "expected": 2,
+    "startTime": "2026-08-02T07:23:45.941Z",
+    "duration": 103.25299999999993,
+    "expected": 0,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0

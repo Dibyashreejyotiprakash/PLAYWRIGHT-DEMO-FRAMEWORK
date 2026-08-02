@@ -1,0 +1,49 @@
+Error occurred: page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://opensource-demo.orangehrmlive.com/", waiting until "load"
+
+    at C:\BBREPOS\DEMO PLAYWIGHT FRAMEWORK\PLAYWRIGHT-DEMO-FRAMEWORK\tests\UI_Automation\Smoke\ValidateVanityUrl.spec.js:32:24 {
+  log: [
+    '  - navigating to "https://opensource-demo.orangehrmlive.com/", waiting until "load"'
+  ],
+  [Symbol(step)]: {
+    location: {
+      file: 'C:\\BBREPOS\\DEMO PLAYWIGHT FRAMEWORK\\PLAYWRIGHT-DEMO-FRAMEWORK\\tests\\UI_Automation\\Smoke\\ValidateVanityUrl.spec.js',
+      line: 32,
+      column: 24
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://opensource-demo.orangehrmlive.com',
+      waitUntil: 'load'
+    },
+    group: undefined,
+    stepId: 'pw:api@102',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@102',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1785641114346,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        'Call log:\n' +
+        '\x1B[2m  - navigating to "https://opensource-demo.orangehrmlive.com/", waiting until "load"\x1B[22m\n',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        'Call log:\n' +
+        '\x1B[2m  - navigating to "https://opensource-demo.orangehrmlive.com/", waiting until "load"\x1B[22m\n' +
+        '\n' +
+        '    at C:\\BBREPOS\\DEMO PLAYWIGHT FRAMEWORK\\PLAYWRIGHT-DEMO-FRAMEWORK\\tests\\UI_Automation\\Smoke\\ValidateVanityUrl.spec.js:32:24',
+      cause: undefined
+    }
+  }
+}

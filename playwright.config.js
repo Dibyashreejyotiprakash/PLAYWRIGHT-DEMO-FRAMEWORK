@@ -7,6 +7,11 @@ import { defineConfig, devices } from '@playwright/test';
  */
 import dotenv from 'dotenv';
 import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
 dotenv.config({ path: path.resolve(__dirname, '.env') });
 
 /**
@@ -23,8 +28,17 @@ export default defineConfig({
   /* Opt out of parallel tests on CI. */
   workers: process.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-  reporter: [['html'], ['list'], ['json', { outputFile: 'playwright-results.json' }], ['junit', { outputFile: 'playwright-report.xml' }],
-              ['allure-playwright',{  outputFile: 'allure-results' }]],
+  reporter: [
+    ['html'],
+    ['list'],
+    ['json', { outputFile: 'playwright-results.json' }],
+    ['junit', { outputFile: 'playwright-report.xml' }],
+    ['allure-playwright', { outputFile: 'allure-results' }],
+    ['./Utility/ReportUtility/CustomHtmlReporter.js', {
+      outputFile: 'Functional_Validation_AutomationReport.html',
+      outputDir: 'Reports'
+    }]
+  ],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Base URL to use in actions like `await page.goto('')`. */

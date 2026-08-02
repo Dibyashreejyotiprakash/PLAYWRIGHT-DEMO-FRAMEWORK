@@ -2,8 +2,12 @@
   "name": "playwright-demo-framework",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test:performance": "npx playwright test tests/Performance_Automation --project=chromium",
+    "test:lighthouse": "npx playwright test tests/Performance_Automation/LighthouseTest.spec.js --project=chromium"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Dibyashreejyotiprakash/PLAYWRIGHT-DEMO-FRAMEWORK.git"
@@ -18,7 +22,8 @@
   "devDependencies": {
     "@playwright/test": "^1.62.1",
     "@types/node": "^26.1.2",
-    "allure-playwright": "^3.10.2"
+    "allure-playwright": "^3.10.2",
+    "lighthouse": "^13.4.1"
   },
   "dependencies": {
     "dotenv": "^17.4.2"
