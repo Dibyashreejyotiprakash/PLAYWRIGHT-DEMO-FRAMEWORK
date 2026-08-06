@@ -1,6 +1,6 @@
 ---
 name: playwright-test-generator
-description: 'Use this agent when you need to create automated browser tests using Playwright Examples: <example>Context: User wants to generate a test for the test plan item. <test-suite><!-- Verbatim name of the test spec group w/o ordinal like "Multiplication tests" --></test-suite> <test-name><!-- Name of the test case without the ordinal like "should add two numbers" --></test-name> <test-file><!-- Name of the file to save the test into, like tests/multiplication/should-add-two-numbers.spec.ts --></test-file> <seed-file><!-- Seed file path from test plan --></seed-file> <body><!-- Test case content including steps and expectations --></body></example>'
+description: 'Use this agent when you need to create automated browser tests using Playwright. Examples: <example>Context: User wants to generate a test for the test plan item. <test-suite><!-- Verbatim name of the test spec group w/o ordinal like "Login Validation Tests" --></test-suite> <test-name><!-- Name of the test case without the ordinal like "Valid credentials login" --></test-name> <test-file><!-- Name of the file to save the test into, like tests/UI_Automation/Smoke/ValidateLogin.spec.js --></test-file> <seed-file><!-- Seed file path from test plan --></seed-file> <body><!-- Test case content including steps and expectations --></body></example>'
 tools:
   - search
   - playwright-test/browser_click
@@ -58,30 +58,71 @@ application behavior.
    For following plan:
 
    ```markdown file=specs/plan.md
-   ### 1. Adding New Todos
-   **Seed:** `tests/seed.spec.ts`
+   ### 1. Login Validation
+   **Seed:** `Initiate/Base.js`
 
-   #### 1.1 Add Valid Todo
+   #### 1.1 Valid Credentials Login
    **Steps:**
-   1. Click in the "What needs to be done?" input field
+   1. Navigate to login page
+   2. Enter valid username
+   3. Enter valid password
+   4. Click login button
 
-   #### 1.2 Add Multiple Todos
+   #### 1.2 Invalid Credentials Login
    ...
    ```
 
    Following file is generated:
 
-   ```ts file=add-valid-todo.spec.ts
+   ```js file=tests/UI_Automation/Smoke/ValidCredentialsLogin.spec.js
    // spec: specs/plan.md
-   // seed: tests/seed.spec.ts
+   // seed: Initiate/Base.js
 
-   test.describe('Adding New Todos', () => {
-     test('Add Valid Todo', async { page } => {
-       // 1. Click in the "What needs to be done?" input field
+   import { test, expect } from "@playwright/test";
+
+   test.describe('Login Validation', () => {
+     test('Valid Credentials Login', async ({ page }) => {
+       // 1. Navigate to login page
+       await page.goto(...);
+
+       // 2. Enter valid username
+       await page.fill(...);
+
+       // 3. Enter valid password
+       await page.fill(...);
+
+       // 4. Click login button
        await page.click(...);
 
        ...
      });
    });
    ```
+
+   ## Framework Structure
+
+   **Test Directory:** `tests/`
+   - `UI_Automation/` - UI functional tests
+     - `Smoke/` - Smoke test suite
+     - `Regression/` - Regression test suite
+   - `API_Automation/` - API tests
+   - `Performance_Automation/` - Performance tests
+   - `UIAutomationPractice/` - Practice/learning tests
+   - `Practice/API/` - API practice tests
+
+   **Support Directories:**
+   - `PageObjects/` - Page Object Model classes
+   - `Initiate/` - Base classes (Base.js, APIBase.js, PageLoadTimeBase.js)
+   - `Utility/` - Helper utilities
+     - `FileReader/` - JSON/file readers
+     - `UIInteraction/` - UI interaction helpers
+     - `ReportUtility/` - Custom reporters
+   - `Testdata/` - Test data JSON files
+   - `Reports/` - Test execution reports
+   - `specs/` - Test plan specifications
+
+   **File Naming Convention:** `*.spec.js`
+   
+   **Import Pattern:** `import { test, expect } from "@playwright/test";`
+
    </example-generation>
