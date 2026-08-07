@@ -7,7 +7,7 @@ test("Assertions", async function ({page}){
 
  await expect(page).toHaveURL("https://demo.automationtesting.in/Register.html");
 
- await expect(page).toHaveTitle("Register");
+ await expect(page).toHaveTitle("Register1");
 
  var status = await page.getByPlaceholder("First Name").isVisible();
  console.log(`status is ${status}`);
