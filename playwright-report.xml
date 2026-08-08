@@ -1,10 +1,10 @@
-<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="17.96242">
-<testsuite name="UIAutomationPractice\ParallelTest.spec.js" timestamp="2026-08-06T16:37:10.306Z" hostname="chromium" tests="3" failures="0" skipped="0" time="15.656" errors="0">
-<testcase name="Browser Application Lunch › Validate You Tube Test" classname="UIAutomationPractice\ParallelTest.spec.js" time="6.392">
-</testcase>
-<testcase name="Browser Application Lunch › Validate  Flipkart Test" classname="UIAutomationPractice\ParallelTest.spec.js" time="8.662">
-</testcase>
-<testcase name="Browser Application Lunch › Validate Amazon Skip Test" classname="UIAutomationPractice\ParallelTest.spec.js" time="0.602">
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="2.5719059999994935">
+<testsuite name="Practice\API2\ValidateGetBookingIds.spec.js" timestamp="2026-08-08T05:05:06.348Z" hostname="chromium" tests="1" failures="0" skipped="0" time="0.998" errors="0">
+<testcase name="Create Token" classname="Practice\API2\ValidateGetBookingIds.spec.js" time="0.998">
+<system-out>
+<![CDATA[Token Response Body { reason: [32m'Bad credentials'[39m }
+]]>
+</system-out>
 </testcase>
 </testsuite>
 </testsuites>

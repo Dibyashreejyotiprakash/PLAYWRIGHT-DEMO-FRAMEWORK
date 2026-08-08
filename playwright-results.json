@@ -32,38 +32,6 @@
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
         ],
         "timeout": 30000
-      },
-      {
-        "outputDir": "C:/BBREPOS/JAVA SCRIPT PLAYWIGHT FRAMEWORK/PLAYWRIGHT-DEMO-FRAMEWORK/test-results",
-        "repeatEach": 1,
-        "retries": 0,
-        "metadata": {
-          "actualWorkers": 1
-        },
-        "id": "firefox",
-        "name": "firefox",
-        "testDir": "C:/BBREPOS/JAVA SCRIPT PLAYWIGHT FRAMEWORK/PLAYWRIGHT-DEMO-FRAMEWORK/tests",
-        "testIgnore": [],
-        "testMatch": [
-          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
-        ],
-        "timeout": 30000
-      },
-      {
-        "outputDir": "C:/BBREPOS/JAVA SCRIPT PLAYWIGHT FRAMEWORK/PLAYWRIGHT-DEMO-FRAMEWORK/test-results",
-        "repeatEach": 1,
-        "retries": 0,
-        "metadata": {
-          "actualWorkers": 1
-        },
-        "id": "webkit",
-        "name": "webkit",
-        "testDir": "C:/BBREPOS/JAVA SCRIPT PLAYWIGHT FRAMEWORK/PLAYWRIGHT-DEMO-FRAMEWORK/tests",
-        "testIgnore": [],
-        "testMatch": [
-          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
-        ],
-        "timeout": 30000
       }
     ],
     "quiet": false,
@@ -116,130 +84,57 @@
   },
   "suites": [
     {
-      "title": "UIAutomationPractice\\ParallelTest.spec.js",
-      "file": "UIAutomationPractice/ParallelTest.spec.js",
+      "title": "Practice\\API2\\ValidateGetBookingIds.spec.js",
+      "file": "Practice/API2/ValidateGetBookingIds.spec.js",
       "column": 0,
       "line": 0,
-      "specs": [],
-      "suites": [
+      "specs": [
         {
-          "title": "Browser Application Lunch",
-          "file": "UIAutomationPractice/ParallelTest.spec.js",
-          "line": 3,
-          "column": 6,
-          "specs": [
+          "title": "Create Token",
+          "ok": true,
+          "tags": [],
+          "tests": [
             {
-              "title": "Validate You Tube Test",
-              "ok": true,
-              "tags": [],
-              "tests": [
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
                 {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
+                  "workerIndex": 39,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 998,
+                  "errors": [],
+                  "stdout": [
                     {
-                      "workerIndex": 0,
-                      "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 6392,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2026-08-06T16:37:11.315Z",
-                      "annotations": [],
-                      "attachments": []
+                      "text": "Token Response Body { reason: \u001b[32m'Bad credentials'\u001b[39m }\n"
                     }
                   ],
-                  "status": "expected"
-                }
-              ],
-              "id": "7a004554d84a425fc4e7-bf7030013958519fe046",
-              "file": "UIAutomationPractice/ParallelTest.spec.js",
-              "line": 4,
-              "column": 5
-            },
-            {
-              "title": "Validate  Flipkart Test",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-08-08T05:05:07.058Z",
                   "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 0,
-                      "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 8662,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2026-08-06T16:37:17.809Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
+                  "attachments": []
                 }
               ],
-              "id": "7a004554d84a425fc4e7-ff88f6f685dc5f0d4787",
-              "file": "UIAutomationPractice/ParallelTest.spec.js",
-              "line": 10,
-              "column": 1
-            },
-            {
-              "title": "Validate Amazon Skip Test",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 0,
-                      "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 602,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2026-08-06T16:37:26.497Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "7a004554d84a425fc4e7-60dbc60ebe2b0c27be1d",
-              "file": "UIAutomationPractice/ParallelTest.spec.js",
-              "line": 17,
-              "column": 1
+              "status": "expected"
             }
-          ]
+          ],
+          "id": "743c949ead17ada58149-b89f6d6ec9deeabf7bff",
+          "file": "Practice/API2/ValidateGetBookingIds.spec.js",
+          "line": 12,
+          "column": 2
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-08-06T16:37:09.195Z",
-    "duration": 17962.420000000002,
-    "expected": 3,
+    "startTime": "2026-08-08T05:05:05.562Z",
+    "duration": 2571.9059999994934,
+    "expected": 1,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0
