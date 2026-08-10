@@ -1,0 +1,10 @@
+{
+    
+    "QA_Prod": "https://qa.v5stage.brandmuscle.net/",
+    "QA_SearchPage_Prod": "https://qa.brandmuscle.net/search",
+    "QA_KeyWorkSearchPage_Prod": "https://qa.brandmuscle.net/search?q=4710834",
+    "QA_WorkcenterPage_Prod": "https://qa.brandmuscle.net/workcenter/#/workcenter-home",
+    "QA_PDPPage_Prod": "https://qa.brandmuscle.net/product-details?productId=1573502&indexType=BrandBuilder%20Templates",
+    "QA_CartPage_Prod": "https://qa.brandmuscle.net/app/checkout/v3/#/shoppingcart"
+   
+}
