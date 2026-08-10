@@ -1,5 +1,6 @@
 {
     "url": "https://opensource-demo.orangehrmlive.com",
+    "demoappurl":"https://rahulshettyacademy.com/seleniumPractise/#/",
     "browser": "chromium",
     "credentials": {
         "username": "Admin",
