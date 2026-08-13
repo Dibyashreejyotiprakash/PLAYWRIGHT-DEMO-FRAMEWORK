@@ -485,7 +485,7 @@ class Interaction {
         }
     }
 
-     async AssertCurrentUrl(expectedTitle){
+     async AssertCurrentUrl(expectedurl){
         try{
             let act_title = await this.page.url();
             await expect(act_title).toBe(expectedTitle);

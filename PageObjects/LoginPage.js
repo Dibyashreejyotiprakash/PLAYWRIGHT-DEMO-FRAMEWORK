@@ -7,9 +7,9 @@ class LoginPage {
         constructor(page) {
             this.page = page;
             this.interaction = new Interaction(page);
-            this.usernameInput = "//input[@placeholder='Username']";
-            this.passwordInput = "//input[@placeholder='Password']";
-            this.loginButton = "//button[normalize-space()='Login']";
+            this.usernameInput = page.getByPlaceHolder('Username')
+            this.passwordInput = page.Locator("//input[@placeholder='Password']");
+            this.loginButton = page.Locator("//button[normalize-space()='Login']");
         }
 
 
