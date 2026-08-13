@@ -72,7 +72,7 @@ class Base{
         }
 
         const env = await this.getEnvVariable();
-        let url;
+        let url=null;
 
         if(env=="prod"){
             url = process.env.prod_url;
