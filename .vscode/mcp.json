@@ -7,6 +7,37 @@
         "playwright",
         "run-test-mcp-server"
       ]
+    },
+    "azuredevops": {
+      "command": "npx",
+      "args": ["-y", "@azure-devops/mcp", "Company", "--authentication", "env"],
+      "env": {
+        "AZURE_DEVOPS_ORG_URL": "https://dev.azure.com/mcp/ComapnyName",
+        "AZURE_DEVOPS_PAT": "FyOs*********************************************k307T4aJQQJ99CDACAAAAAItm8HAAASAZDOotbJ"
+      }
+    },
+    "mssql": {
+      "command": "npx",
+      "args": ["-y", "mssql-mcp"],
+      "env": {
+        "DB_SERVER": "codb01s.comanyname.local",
+        "DB_DATABASE": "OrderManagement",
+        "DB_USER": "WebAPI",
+        "DB_PASSWORD": "UjXbAnHt#KMZysWgX",
+        "DB_PORT": "1433",
+        "DB_ENCRYPT": "false",
+        "DB_TRUST_SERVER_CERTIFICATE": "true",
+        "DB_TRUSTED_CONNECTION": "true"
+      }
+    },
+    "jira": {
+      "command": "npx",
+      "args": ["-y", "mcp-jira-cloud"],
+      "env": {
+        "JIRA_BASE_URL": "https://ansira.atlassian.net",
+        "JIRA_EMAIL": "dibyashree.jyoti@domain.com",
+        "JIRA_API_TOKEN": "******************************835F50FF"      
+      }
     }
   },
   "inputs": []
