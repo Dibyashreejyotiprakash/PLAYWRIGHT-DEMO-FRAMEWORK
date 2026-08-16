@@ -2,8 +2,35 @@
   "name": "playwright-demo-framework",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test:performance": "npx playwright test tests/Performance_Automation --project=chromium",
+    "test:lighthouse": "npx playwright test tests/Performance_Automation/LighthouseTest.spec.js --project=chromium",
+     "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+
+    "test:chromium": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:webkit": "playwright test --project=webkit",
+
+    "test:smoke": "playwright test --grep @smoke",
+    "test:regression": "playwright test --grep @regression",
+    "test:sanity": "playwright test --grep @sanity",
+
+    "test:parallel": "playwright test --workers=4",
+    "test:serial": "playwright test --workers=1",
+
+    "test:dev": "cross-env ENV=dev playwright test",
+    "test:qa": "cross-env ENV=qa playwright test",
+    "test:stage": "cross-env ENV=stage playwright test",
+    "test:prod": "cross-env ENV=prod playwright test",
+
+    "report": "playwright show-report",
+    "trace": "playwright show-trace"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Dibyashreejyotiprakash/PLAYWRIGHT-DEMO-FRAMEWORK.git"
@@ -18,9 +45,11 @@
   "devDependencies": {
     "@playwright/test": "^1.62.1",
     "@types/node": "^26.1.2",
-    "allure-playwright": "^3.10.2"
+    "allure-playwright": "^3.10.2",
+    "lighthouse": "^13.4.1"
   },
   "dependencies": {
+    "chart.js": "^4.4.0",
     "dotenv": "^17.4.2"
   }
 }

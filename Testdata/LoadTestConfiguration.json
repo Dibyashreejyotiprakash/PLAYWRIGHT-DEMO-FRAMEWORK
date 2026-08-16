@@ -1,0 +1,22 @@
+{
+  "JMeterConfiguration": {
+    "JMeterPath": "JmeterFiles\\apache-jmeter-5.6.3\\apache-jmeter-5.6.3\\bin\\jmeter.bat",
+    "JMeterHome": "",
+    "ResultsFolder": "JMeterResults",
+    "HtmlReportsFolder": "JMeterReports",
+    "MaxConcurrentTests": 5,
+    "DefaultThreadCount": 10,
+    "DefaultRampUpTime": 5,
+    "DefaultDuration": 60,
+    "TimeoutMinutes": 30
+  },
+  "TestMappings": [
+    {
+      "TestNamePattern": "Verify_SetId_2250456",
+      "JmxFile": "Renderer.jmx",
+      "ThreadCount": 15,
+      "Duration": 120,
+      "RampUpTime": 10
+    }
+  ]
+}

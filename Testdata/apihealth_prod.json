@@ -1,0 +1,242 @@
+{
+  "apiHealthEndpoints": [
+    {
+      "id": 1,
+      "name": "Address Book",
+      "prodHealthUrl": "https://api-i.brandmuscle.net/api/addressbook/v1/health",
+      "version": "v1",
+      "namespace": "Default"
+    },
+    {
+      "id": 2,
+      "name": "Bar Code",
+      "prodHealthUrl": "https://api-i.brandmuscle.net/api/barcode/v1/health",
+      "version": "v1",
+      "namespace": "Barcode"
+    },
+    {
+        "id": 3,
+        "name": "Chase Zillow",
+        "prodHealthUrl": "https://api-i.brandmuscle.net/api/zillowlenders/v1/health",
+        "version": "v1",
+        "namespace": "Default"
+    },
+    {
+      "id": 4,
+      "name": "Checkout",
+      "prodHealthUrl": "https://api-i.brandmuscle.net/api/checkout/v3/health",
+      "version": "v3",
+      "namespace": "Default"
+    },
+    {
+      "id": 5,
+      "name": "Checkout Rules",
+      "prodHealthUrl": "https://api-i.brandmuscle.net/api/checkoutrules/v2/health",
+      "version": "v2",
+      "namespace": "Default"
+    },
+    {
+      "id": 6,
+      "name": "Client Configuration V1",
+      "prodHealthUrl": "https://api-i.brandmuscle.net/api/clientconfiguration/v1/health",
+      "version": "v1",
+      "namespace": "Default"
+    },
+    {
+      "id": 7,
+      "name": "Client Configuration V2",
+      "prodHealthUrl": "https://api-i.brandmuscle.net/api/clientconfiguration/v2/health",
+      "version": "v2",
+      "namespace": "BrandBuilder"
+    },
+    {
+      "id": 8,
+      "name": "Client Management",
+      "prodHealthUrl": "https://api-i.brandmuscle.net/api/clientmanagement/v1/health",
+      "version": "v1",
+      "namespace": "ClientManagment"
+    },
+    {
+      "id": 9,
+      "name": "CRM Sync",
+      "prodHealthUrl": "https://api-i.brandmuscle.net/api/crmsync/v1/health",
+      "version": "v1",
+      "namespace": "Default"
+    },
+    {
+        "id": 10,
+        "name": "CRMAPI",
+        "prodHealthUrl": "https://api-i.brandmuscle.net/api/crm/v2/health",
+        "version": "v1",
+        "namespace": "Default"
+    },
+    {
+      "id": 11,
+      "name": "Custom Token Generator",
+      "prodHealthUrl": "https://api-i.brandmuscle.net/api/customtokengenerator/v1/health",
+      "version": "v1",
+      "namespace": "Default"
+    },
+    {
+      "id": 12,
+      "name": "DAM",
+      "prodHealthUrl": "https://api-i.brandmuscle.net/api/dam/v1/health",
+      "version": "v1",
+      "namespace": "BrandBuilder"
+    },
+    {
+      "id": 13,
+      "name": "Dam Adapter",
+      "prodHealthUrl": "https://api-i.brandmuscle.net/api/damadapter/v1/health",
+      "version": "v1",
+      "namespace": "dam"
+    },
+    {
+      "id": 14,
+      "name": "Event Manager",
+      "prodHealthUrl": "https://api-i.brandmuscle.net/api/eventmanager/v1/health",
+      "version": "v1",
+      "namespace": "Default"
+    },
+    {
+      "id": 15,
+      "name": "Http Connector",
+      "prodHealthUrl": "https://api-i.brandmuscle.net/api/httpconnector/v1/health",
+      "version": "v1",
+      "namespace": "Default"
+    },
+    {
+        "id": 16,
+        "name": "Image API",
+        "prodHealthUrl": "https://api-i.brandmuscle.net/api/image/v3/health",
+        "version": "v1",
+        "namespace": "Default"
+    },
+    {
+        "id": 17,
+        "name": "Job API",
+        "prodHealthUrl": "https://api-i.brandmuscle.net/api/jobs/v2/health",
+        "version": "v1",
+        "namespace": "Default"
+    },
+    {
+      "id": 18,
+      "name": "Locations",
+      "prodHealthUrl": "https://api-i.brandmuscle.net/api/locations/v1/health",
+      "version": "v1",
+      "namespace": "BrandBuilder"
+    },
+    {
+      "id": 19,
+      "name": "Notifications",
+      "prodHealthUrl": "https://api-i.brandmuscle.net/api/notifications/v1/health",
+      "version": "v1",
+      "namespace": "Notifications"
+    },
+    {
+      "id": 20,
+      "name": "Order Management",
+      "prodHealthUrl": "https://api-i.brandmuscle.net/api/ordermanagement/v2/health",
+      "version": "v2",
+      "namespace": "BrandBuilder"
+    },
+    {
+      "id": 21,
+      "name": "Payment",
+      "prodHealthUrl": "https://api-i.brandmuscle.net/api/payment/v1/health",
+      "version": "v1",
+      "namespace": "default"
+    },
+    {
+      "id": 22,
+      "name": "QR Code",
+      "prodHealthUrl": "https://api-i.brandmuscle.net/api/qrcode/v1/health",
+      "version": "v1",
+      "namespace": "QRCode"
+    },
+    {
+      "id": 23,
+      "name": "Resource Messages",
+      "prodHealthUrl": "https://api-i.brandmuscle.net/api/resourcemessages/v2/health",
+      "version": "v2",
+      "namespace": "BrandBuilder"
+    },
+    {
+      "id": 24,
+      "name": "Scorecard API v2",
+      "prodHealthUrl": "https://api-i.brandmuscle.net/api/scorecard/v2/health",
+      "version": "v2",
+      "namespace": "Default"
+    },
+    {
+      "id": 25,
+      "name": "Search",
+      "prodHealthUrl": "https://api-i.brandmuscle.net/api/search/v1/health",
+      "version": "v1",
+      "namespace": "Search"
+    },
+    {
+      "id": 26,
+      "name": "Search Property",
+      "prodHealthUrl": "https://api-i.brandmuscle.net/api/searchproperty/v3/health",
+      "version": "v3",
+      "namespace": "Default"
+    },
+    {
+      "id": 27,
+      "name": "SlideCraft",
+      "prodHealthUrl": "https://api-i.brandmuscle.net/api/slidecraft/v1/health",
+      "version": "v1",
+      "namespace": "Default"
+    },
+    {
+      "id": 28,
+      "name": "Template",
+      "prodHealthUrl": "https://api-i.brandmuscle.net/api/template/v1/health",
+      "version": "v1",
+      "namespace": "Default"
+    },
+    {
+        "id": 29,
+        "name": "Template Editor",
+        "prodHealthUrl": "https://api-i.brandmuscle.net/api/templateeditor/v1/health",
+        "version": "v1",
+        "namespace": "Default"
+    },
+    {
+        "id": 31,
+        "name": "Third Party API",
+        "prodHealthUrl": "https://qa.brandmuscle.net/api/thirdparty/v1/health",
+        "version": "v1",
+        "namespace": "Default"
+    },
+    {
+      "id": 33,
+      "name": "v5OIDC",
+      "prodHealthUrl": "https://api-i.brandmuscle.net/api/v5oidc/v1/health",
+      "version": "v1",
+      "namespace": "Default"
+    },
+    {
+      "id": 34,
+      "name": "Work Center",
+      "prodHealthUrl": "https://api-i.brandmuscle.net/api/workcenter/v1/health",
+      "version": "v1",
+      "namespace": "Default"
+    },
+    {
+      "id": 35,
+      "name": "Workflow Set",
+      "prodHealthUrl": "https://api-i.brandmuscle.net/api/workflowset/v1/health",
+      "version": "v1",
+      "namespace": "Default"
+    }
+  ],
+  "metadata": {
+    "totalApis": 35,
+    "environment": "Production",
+    "baseUrl": "https://api-i.brandmuscle.net",
+    "generatedDate": "2026-04-07",
+    "source": "Confluence: All K8s Components - Prod Column"
+  }
+}

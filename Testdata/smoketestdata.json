@@ -1,0 +1,26 @@
+{
+    "url": "https://opensource-demo.orangehrmlive.com",
+    "demoappurl":"https://rahulshettyacademy.com/seleniumPractise/#/",
+    "browser": "chromium",
+    "credentials": {
+        "username": "Admin",
+        "password": "admin123"
+    },
+    "employee": {
+        "personal": {
+            "firstname": "John",
+            "lastname": "Smith"
+        },
+        "job": {
+            "designation": "QA Engineer"
+        }
+    },
+    "expectedurls": {
+        "dashboard": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+        "pim": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList"
+    },
+    "expectedtitles": {
+        "dashboard": "OrangeHRM",
+        "pim": "OrangeHRM"
+    }
+}

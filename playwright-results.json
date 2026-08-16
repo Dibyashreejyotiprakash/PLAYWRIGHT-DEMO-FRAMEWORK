@@ -1,16 +1,11 @@
 {
   "config": {
-    "argv": [
-      "C:\\Program Files\\nodejs\\node.exe",
-      "C:\\BBREPOS\\DEMO PLAYWIGHT FRAMEWORK\\PLAYWRIGHT-DEMO-FRAMEWORK\\node_modules\\@playwright\\test\\cli.js",
-      "test",
-      "ValidateLoginTest.spec.js:8"
-    ],
-    "configFile": "C:\\BBREPOS\\DEMO PLAYWIGHT FRAMEWORK\\PLAYWRIGHT-DEMO-FRAMEWORK\\playwright.config.js",
-    "rootDir": "C:/BBREPOS/DEMO PLAYWIGHT FRAMEWORK/PLAYWRIGHT-DEMO-FRAMEWORK/tests",
+    "argv": [],
+    "configFile": "C:\\BBREPOS\\JAVA SCRIPT PLAYWIGHT FRAMEWORK\\PLAYWRIGHT-DEMO-FRAMEWORK\\playwright.config.js",
+    "rootDir": "C:/BBREPOS/JAVA SCRIPT PLAYWIGHT FRAMEWORK/PLAYWRIGHT-DEMO-FRAMEWORK",
     "failOnFlakyTests": false,
     "forbidOnly": false,
-    "fullyParallel": false,
+    "fullyParallel": true,
     "globalSetup": null,
     "globalTeardown": null,
     "globalTimeout": 0,
@@ -23,7 +18,7 @@
     "preserveOutput": "always",
     "projects": [
       {
-        "outputDir": "C:/BBREPOS/DEMO PLAYWIGHT FRAMEWORK/PLAYWRIGHT-DEMO-FRAMEWORK/test-results",
+        "outputDir": "C:/BBREPOS/JAVA SCRIPT PLAYWIGHT FRAMEWORK/PLAYWRIGHT-DEMO-FRAMEWORK/test-results",
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
@@ -31,7 +26,7 @@
         },
         "id": "chromium",
         "name": "chromium",
-        "testDir": "C:/BBREPOS/DEMO PLAYWIGHT FRAMEWORK/PLAYWRIGHT-DEMO-FRAMEWORK/tests",
+        "testDir": "C:/BBREPOS/JAVA SCRIPT PLAYWIGHT FRAMEWORK/PLAYWRIGHT-DEMO-FRAMEWORK",
         "testIgnore": [],
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
@@ -62,9 +57,16 @@
         }
       ],
       [
-        "C:\\BBREPOS\\DEMO PLAYWIGHT FRAMEWORK\\PLAYWRIGHT-DEMO-FRAMEWORK\\node_modules\\allure-playwright\\dist\\cjs\\index.js",
+        "C:\\BBREPOS\\JAVA SCRIPT PLAYWIGHT FRAMEWORK\\PLAYWRIGHT-DEMO-FRAMEWORK\\node_modules\\allure-playwright\\dist\\cjs\\index.js",
         {
           "outputFile": "allure-results"
+        }
+      ],
+      [
+        "C:\\BBREPOS\\JAVA SCRIPT PLAYWIGHT FRAMEWORK\\PLAYWRIGHT-DEMO-FRAMEWORK\\Utility\\ReportUtility\\CustomHtmlReporter.js",
+        {
+          "outputFile": "Functional_Validation_AutomationReport.html",
+          "outputDir": "Reports"
         }
       ]
     ],
@@ -75,138 +77,60 @@
     "shard": null,
     "tags": [],
     "updateSnapshots": "missing",
-    "updateSourceMethod": "patch",
+    "updateSourceMethod": "3way",
     "version": "1.62.1",
-    "workers": 6,
+    "workers": 1,
     "webServer": null
   },
   "suites": [
     {
-      "title": "ValidateLoginTest.spec.js",
-      "file": "ValidateLoginTest.spec.js",
+      "title": "tests\\PracticeFolder\\UIAutomationPractice\\HandleAlertPopUp.spec.js",
+      "file": "tests/PracticeFolder/UIAutomationPractice/HandleAlertPopUp.spec.js",
       "column": 0,
       "line": 0,
-      "specs": [],
-      "suites": [
+      "specs": [
         {
-          "title": "Validate Login Functionality",
-          "file": "ValidateLoginTest.spec.js",
-          "line": 8,
-          "column": 6,
-          "specs": [
+          "title": "Handle Confirm Alert",
+          "ok": true,
+          "tags": [],
+          "tests": [
             {
-              "title": "Validate Valid Login ",
-              "ok": true,
-              "tags": [],
-              "tests": [
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
                 {
-                  "timeout": 30000,
+                  "workerIndex": 12,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4213,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-08-16T04:25:09.566Z",
                   "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 0,
-                      "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 3763,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": "Test started\n"
-                        },
-                        {
-                          "text": "Attempting login with username: Admin\n"
-                        },
-                        {
-                          "text": "Filling username field...\n"
-                        },
-                        {
-                          "text": "Filling password field...\n"
-                        },
-                        {
-                          "text": "Clicking login button...\n"
-                        },
-                        {
-                          "text": "Waiting for page to load...\n"
-                        },
-                        {
-                          "text": "Test completed\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2026-08-01T13:40:18.367Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
+                  "attachments": []
                 }
               ],
-              "id": "f21db2457e77655ea40b-f07009800e1c9110d87f",
-              "file": "ValidateLoginTest.spec.js",
-              "line": 35,
-              "column": 5
-            },
-            {
-              "title": "Validate Current URL and Title ",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 0,
-                      "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 32,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": "Test started\n"
-                        },
-                        {
-                          "text": "Current URL before invalid login attempt: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index\n"
-                        },
-                        {
-                          "text": "Page title after login: OrangeHRM\n"
-                        },
-                        {
-                          "text": "Test completed\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2026-08-01T13:40:27.614Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "f21db2457e77655ea40b-6771d37f9890fe1dcea3",
-              "file": "ValidateLoginTest.spec.js",
-              "line": 54,
-              "column": 5
+              "status": "expected"
             }
-          ]
+          ],
+          "id": "bee84fb89dbecde2e0f0-d4a02cea93a8abc835cb",
+          "file": "tests/PracticeFolder/UIAutomationPractice/HandleAlertPopUp.spec.js",
+          "line": 22,
+          "column": 1
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-08-01T13:40:17.565Z",
-    "duration": 10881.464,
-    "expected": 2,
+    "startTime": "2026-08-16T04:25:08.009Z",
+    "duration": 6667.027999999933,
+    "expected": 1,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0

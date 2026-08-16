@@ -7,31 +7,46 @@ import { defineConfig, devices } from '@playwright/test';
  */
 import dotenv from 'dotenv';
 import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
 dotenv.config({ path: path.resolve(__dirname, '.env') });
 
 /**
  * @see https://playwright.dev/docs/test-configuration
  */
 export default defineConfig({
-  testDir: './tests',
+  testDir: '.',
   /* Run tests in files in parallel */
-  fullyParallel: false,
+  fullyParallel: true,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
   forbidOnly: !!process.env.CI,
   /* Retry on CI only */
-  retries: process.env.CI ? 2 : 0,
+  retries: process.env.CI ? 2 : 2,
   /* Opt out of parallel tests on CI. */
-  workers: process.env.CI ? 1 : undefined,
+  workers: process.env.CI ? 3 : 3,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-  reporter: [['html'], ['list'], ['json', { outputFile: 'playwright-results.json' }], ['junit', { outputFile: 'playwright-report.xml' }],
-              ['allure-playwright',{  outputFile: 'allure-results' }]],
+  reporter: [
+    ['html'],
+    ['list'],
+    ['json', { outputFile: 'playwright-results.json' }],
+    ['junit', { outputFile: 'playwright-report.xml' }],
+    ['allure-playwright', { outputFile: 'allure-results' }],
+    ['./Utility/ReportUtility/CustomHtmlReporter.js', {
+      outputFile: 'Functional_Validation_AutomationReport.html',
+      outputDir: 'Reports'
+    }]
+  ],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Base URL to use in actions like `await page.goto('')`. */
     // baseURL: 'http://localhost:3000',
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
-    trace: 'on-first-retry',
+    trace: 'retain-on-failure',
+    screenshot:'only-on-failure'
   },
 
   /* Configure projects for major browsers */
@@ -41,7 +56,7 @@ export default defineConfig({
       use: { ...devices['Desktop Chrome'] },
     },
 
-    /*{
+   /* {
       name: 'firefox',
       use: { ...devices['Desktop Firefox'] },
     },

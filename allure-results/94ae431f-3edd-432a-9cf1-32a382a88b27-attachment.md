@@ -1,0 +1,70 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: Practice\API2\ValidateGetBookingIds.spec.js >> Validate Get Booking Ids
+- Location: PLAYWRIGHT-DEMO-FRAMEWORK\tests\Practice\API2\ValidateGetBookingIds.spec.js:3:1
+
+# Error details
+
+```
+Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: "2"
+Received: [{"bookingid": 1}, {"bookingid": 2}, {"bookingid": 3}, {"bookingid": 4}, {"bookingid": 5}, {"bookingid": 6}, {"bookingid": 7}, {"bookingid": 8}, {"bookingid": 9}, {"bookingid": 10}, …]
+```
+
+# Test source
+
+```ts
+  1  | import {test,expect} from "@playwright/test"
+  2  | 
+  3  | test("Validate Get Booking Ids", async function ({request}){
+  4  | 
+  5  | 
+  6  |     const response = await request.get("https://restful-booker.herokuapp.com/booking");
+  7  | 
+  8  |     console.log("Response Body ", response);
+  9  | 
+  10 |     //Get the response Body
+  11 |     let responsebody = await response.body();
+  12 | 
+  13 |    //console.log("Response Body ",responsebody);
+  14 | 
+  15 |    //Get Rsponse Body In Json Format
+  16 |    let jsonbody = await response.json();
+  17 |    console.log("Json Response ",jsonbody);
+  18 | 
+  19 | // Get Headers
+  20 |     let headers = await response.headers();
+  21 |     console.log("Response Headers",headers);
+  22 | 
+  23 |     //Header Array
+  24 |     let headerarray = await response.headersArray();
+  25 |     console.log("Headers ",headerarray)
+  26 | 
+  27 |     // Get Status Code 
+  28 |     let responsestatuscode = await response.status();
+  29 |     console.log("Status Code ",responsestatuscode)
+  30 | 
+  31 |     await expect(responsestatuscode).toBe(200);
+  32 | 
+  33 |     //Status Text
+  34 |     let statustext = await response.statusText();
+  35 |     console.log("Status Method ",statustext)
+  36 | 
+  37 |     let firstbookingid = await response.json();
+  38 |     console.log("First Booking Id", firstbookingid[1].bookingid);
+  39 | 
+> 40 |     await expect(firstbookingid).toBe('2');
+     |                                  ^ Error: expect(received).toBe(expected) // Object.is equality
+  41 | 
+  42 | 
+  43 | 
+  44 | 
+  45 | })
+```
