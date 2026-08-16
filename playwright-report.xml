@@ -1,10 +1,6 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="2.5719059999994935">
-<testsuite name="Practice\API2\ValidateGetBookingIds.spec.js" timestamp="2026-08-08T05:05:06.348Z" hostname="chromium" tests="1" failures="0" skipped="0" time="0.998" errors="0">
-<testcase name="Create Token" classname="Practice\API2\ValidateGetBookingIds.spec.js" time="0.998">
-<system-out>
-<![CDATA[Token Response Body { reason: [32m'Bad credentials'[39m }
-]]>
-</system-out>
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="6.667027999999933">
+<testsuite name="tests\PracticeFolder\UIAutomationPractice\HandleAlertPopUp.spec.js" timestamp="2026-08-16T04:25:08.813Z" hostname="chromium" tests="1" failures="0" skipped="0" time="4.213" errors="0">
+<testcase name="Handle Confirm Alert" classname="tests\PracticeFolder\UIAutomationPractice\HandleAlertPopUp.spec.js" time="4.213">
 </testcase>
 </testsuite>
 </testsuites>

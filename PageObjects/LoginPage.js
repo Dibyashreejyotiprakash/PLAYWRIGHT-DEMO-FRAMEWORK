@@ -7,9 +7,9 @@ class LoginPage {
         constructor(page) {
             this.page = page;
             this.interaction = new Interaction(page);
-            this.usernameInput = "//input[@placeholder='Username']";
-            this.passwordInput = "//input[@placeholder='Password']";
-            this.loginButton = "//button[normalize-space()='Login']";
+            this.usernameInput = page.getByPlaceholder('Username');
+            this.passwordInput = page.getByPlaceholder('Password');
+            this.loginButton = page.getByRole('button', { name: 'Login' });
         }
 
 

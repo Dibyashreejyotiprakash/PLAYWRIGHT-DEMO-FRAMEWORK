@@ -1,4 +1,0 @@
-Error in navigating to URL: Error: page.goto: Target page, context or browser has been closed
-Call log:
-  - navigating to "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login", waiting until "load"
-

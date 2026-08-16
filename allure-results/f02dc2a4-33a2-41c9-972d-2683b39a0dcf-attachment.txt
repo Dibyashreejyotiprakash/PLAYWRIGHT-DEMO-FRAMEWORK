@@ -1,8 +1,0 @@
-Test started
-Current URL before invalid login attempt: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
-AssertCurrentUrl failed due Error: expect(received).toBe(expected) // Object.is equality
-
-Expected: "OrangeHRM"
-Received: "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index"
-Page title after login: OrangeHRM
-Test completed

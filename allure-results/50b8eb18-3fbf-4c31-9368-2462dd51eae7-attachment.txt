@@ -1,4 +1,0 @@
-API Test started
-Response Body for First Booking ID is : {"firstname":"Sally","lastname":"Smith","totalprice":329,"depositpaid":true,"bookingdates":{"checkin":"2020-03-03","checkout":"2022-09-14"}}
-Status Code is : 200
-API Test completed

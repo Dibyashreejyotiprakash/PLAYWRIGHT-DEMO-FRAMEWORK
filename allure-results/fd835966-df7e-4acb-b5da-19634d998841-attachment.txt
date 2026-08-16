@@ -1,4 +1,0 @@
-Test started
-Attempting login with username: Admin
-Login failed due to TypeError: Cannot read properties of null (reading 'waitForSelector')
-Test completed
