@@ -2,7 +2,7 @@
   "config": {
     "argv": [],
     "configFile": "C:\\BBREPOS\\JAVA SCRIPT PLAYWIGHT FRAMEWORK\\PLAYWRIGHT-DEMO-FRAMEWORK\\playwright.config.js",
-    "rootDir": "C:/BBREPOS/JAVA SCRIPT PLAYWIGHT FRAMEWORK/PLAYWRIGHT-DEMO-FRAMEWORK/tests",
+    "rootDir": "C:/BBREPOS/JAVA SCRIPT PLAYWIGHT FRAMEWORK/PLAYWRIGHT-DEMO-FRAMEWORK",
     "failOnFlakyTests": false,
     "forbidOnly": false,
     "fullyParallel": true,
@@ -26,7 +26,7 @@
         },
         "id": "chromium",
         "name": "chromium",
-        "testDir": "C:/BBREPOS/JAVA SCRIPT PLAYWIGHT FRAMEWORK/PLAYWRIGHT-DEMO-FRAMEWORK/tests",
+        "testDir": "C:/BBREPOS/JAVA SCRIPT PLAYWIGHT FRAMEWORK/PLAYWRIGHT-DEMO-FRAMEWORK",
         "testIgnore": [],
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
@@ -84,13 +84,13 @@
   },
   "suites": [
     {
-      "title": "Practice\\API2\\ValidateGetBookingIds.spec.js",
-      "file": "Practice/API2/ValidateGetBookingIds.spec.js",
+      "title": "tests\\PracticeFolder\\UIAutomationPractice\\HandleAlertPopUp.spec.js",
+      "file": "tests/PracticeFolder/UIAutomationPractice/HandleAlertPopUp.spec.js",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Create Token",
+          "title": "Handle Confirm Alert",
           "ok": true,
           "tags": [],
           "tests": [
@@ -102,19 +102,15 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 39,
+                  "workerIndex": 12,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 998,
+                  "duration": 4213,
                   "errors": [],
-                  "stdout": [
-                    {
-                      "text": "Token Response Body { reason: \u001b[32m'Bad credentials'\u001b[39m }\n"
-                    }
-                  ],
+                  "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-08-08T05:05:07.058Z",
+                  "startTime": "2026-08-16T04:25:09.566Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -122,18 +118,18 @@
               "status": "expected"
             }
           ],
-          "id": "743c949ead17ada58149-b89f6d6ec9deeabf7bff",
-          "file": "Practice/API2/ValidateGetBookingIds.spec.js",
-          "line": 12,
-          "column": 2
+          "id": "bee84fb89dbecde2e0f0-d4a02cea93a8abc835cb",
+          "file": "tests/PracticeFolder/UIAutomationPractice/HandleAlertPopUp.spec.js",
+          "line": 22,
+          "column": 1
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-08-08T05:05:05.562Z",
-    "duration": 2571.9059999994934,
+    "startTime": "2026-08-16T04:25:08.009Z",
+    "duration": 6667.027999999933,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,

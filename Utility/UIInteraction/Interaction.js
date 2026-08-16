@@ -231,8 +231,15 @@ class Interaction {
 
     async ClickOnElement(selector, options = { timeout: 30000 }){
         try{
-            await this.page.waitForSelector(selector, { state: 'visible', timeout: 30000 });
-            await this.page.click(selector, options);
+            // Handle Locator objects and string selectors
+            if (typeof selector === 'string') {
+                await this.page.waitForSelector(selector, { state: 'visible', timeout: 30000 });
+                await this.page.click(selector, options);
+            } else {
+                // It's a Locator object
+                await selector.waitFor({ state: 'visible', timeout: options.timeout || 30000 });
+                await selector.click(options);
+            }
         }
         catch (error) {
             console.error('Error occurred while clicking on element:', selector, error);

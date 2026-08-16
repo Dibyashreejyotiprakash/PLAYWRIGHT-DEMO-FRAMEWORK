@@ -1,0 +1,15 @@
+Response Body {
+  bookingid: 13192,
+  booking: {
+    firstname: 'Jim',
+    lastname: 'Brown',
+    totalprice: 111,
+    depositpaid: true,
+    bookingdates: { checkin: '2018-01-01', checkout: '2019-01-01' },
+    additionalneeds: 'Breakfast'
+  }
+}
+Status Code  200
+Header Array  [Function: headersArray]
+Status Message  OK
+Booking Id  undefined

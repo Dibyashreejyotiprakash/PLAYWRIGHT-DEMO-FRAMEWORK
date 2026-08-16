@@ -1,4 +1,0 @@
-Title for URL https://www.google.com : Google
-Title for URL https://www.microsoft.com : Microsoft – AI, Cloud, Productivity, Computing, Gaming & Apps
-Title for URL https://www.github.com : GitHub · Change is constant. GitHub keeps you ahead. · GitHub
-Title for URL https://playwright.dev : Fast and reliable end-to-end testing for modern web apps | Playwright

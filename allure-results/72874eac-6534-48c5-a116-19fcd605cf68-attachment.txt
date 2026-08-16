@@ -1,4 +1,0 @@
-Test started
-Attempting login with username: Admin
-AssertElementEnabled failed due Error: toBeEnabled can be only used with Locator object, was called with //button[normalize-space()='Login']
-Test completed
